@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B13B5445-F9C0-37E9-BAD0-24FBD90086A6}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Render</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Render.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Render</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Render.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Render</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(SolutionDir)$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Render.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Render</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(SolutionDir)$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Render.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Render</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src;$(SolutionDir)..\src\ThirdParty;$(SolutionDir)..\src\ThirdParty\glfw</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\GIT\testproj\SunEngine\src\Render\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GIT\testproj\SunEngine\src\Render\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src;$(SolutionDir)..\src\ThirdParty;$(SolutionDir)..\src\ThirdParty\glfw</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\GIT\testproj\SunEngine\src\Render\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GIT\testproj\SunEngine\src\Render\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src;$(SolutionDir)..\src\ThirdParty;$(SolutionDir)..\src\ThirdParty\glfw</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\GIT\testproj\SunEngine\src\Render\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GIT\testproj\SunEngine\src\Render\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src;$(SolutionDir)..\src\ThirdParty;$(SolutionDir)..\src\ThirdParty\glfw</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\GIT\testproj\SunEngine\src\Render\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GIT\testproj\SunEngine\src\Render\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Render\ContextBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\Render\glad.c" />
+    <ClCompile Include="..\..\..\src\Render\GLEnumMap.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GLFunctions.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GLGraphicsLib.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GLGraphicsProxy.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GLIndexBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GLMacros.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GLProgram.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GLShader.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GLTexture.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GLVertexArray.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GLVertexBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GraphicsCache.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GraphicsLib.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GraphicsLibFactory.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GraphicsPipeline.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GraphicsPipelineBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GraphicsProxy.cpp" />
+    <ClCompile Include="..\..\..\src\Render\GTexture.cpp" />
+    <ClCompile Include="..\..\..\src\Render\IndexBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Program.cpp" />
+    <ClCompile Include="..\..\..\src\Render\RenderAPI.cpp" />
+    <ClCompile Include="..\..\..\src\Render\RenderCommandBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\Render\RHI.cpp" />
+    <ClCompile Include="..\..\..\src\Render\RHI2\GraphicsPipelineMgr.cpp" />
+    <ClCompile Include="..\..\..\src\Render\RHI2\RenderBluePrint.cpp" />
+    <ClCompile Include="..\..\..\src\Render\RHI2\RH2_Opengl.cpp" />
+    <ClCompile Include="..\..\..\src\Render\RHI2\RHI2.cpp" />
+    <ClCompile Include="..\..\..\src\Render\RHI2\RHI2_Vulkan.cpp" />
+    <ClCompile Include="..\..\..\src\Render\RHI2\RHIOpenglSurfaceBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\Render\RHI2\RHISurfaceBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\Render\RHI2\RHIVulkanSurfaceBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\Render\RHI2\RSI.cpp" />
+    <ClCompile Include="..\..\..\src\Render\RHI3\RHI3.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Shader.cpp" />
+    <ClCompile Include="..\..\..\src\Render\ShaderManager.cpp" />
+    <ClCompile Include="..\..\..\src\Render\ShaderMgr.cpp" />
+    <ClCompile Include="..\..\..\src\Render\ShaderModule.cpp" />
+    <ClCompile Include="..\..\..\src\Render\SurfaceBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\Render\TextureBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\Render\VertexArray.cpp" />
+    <ClCompile Include="..\..\..\src\Render\VertexBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\MyVulkanWin32.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\buffersuballocator_vk.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\debug_util_vk.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\error_vk.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\images_vk.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\memallocator_dedicated_vk.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\memallocator_vk.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\memorymanagement_vk.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\nvprint.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\resourceallocator_vk.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\samplers_vk.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\stagingmemorymanager_vk.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\swapchain_vk.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanCommandBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanDescriptor.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanDeviceBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanGraphicsPipelineBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanPhysicalDeviceBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanGraphicsLib.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanImage.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanImageView.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanInstanceBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanMemory.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanQueueBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanRHI.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanShaderMgr.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanSurfaceBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanSwapChain.cpp" />
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanTextureBuilder.cpp" />
+    <ClCompile Include="..\..\..\src\ThirdParty\vulkan\utils\utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\GIT\testproj\SunEngine\myproj\ZERO_CHECK.vcxproj">
+      <Project>{CC70827A-3128-3C42-8070-99CA22C7B17E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\Render\ContextBuilder.h" />
+    <ClInclude Include="..\..\..\src\Render\GraphicsPipeline.h" />
+    <ClInclude Include="..\..\..\src\Render\GraphicsPipelineBuilder.h" />
+    <ClInclude Include="..\..\..\src\Render\RHI.h" />
+    <ClInclude Include="..\..\..\src\Render\RHI2\GraphicsPipelineMgr.h" />
+    <ClInclude Include="..\..\..\src\Render\RHI2\RenderBluePrint.h" />
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHI2.h" />
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHI2Define.h" />
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHI2_Opengl.h" />
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHI2_Vulkan.h" />
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHIOpenglSurfaceBuilder.h" />
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHISurfaceBuilder.h" />
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHIVulkanSurfaceBuilder.h" />
+    <ClInclude Include="..\..\..\src\Render\RHI2\RSI.h" />
+    <ClInclude Include="..\..\..\src\Render\RHI3\RHI3.h" />
+    <ClInclude Include="..\..\..\src\Render\RHIDefine.h" />
+    <ClInclude Include="..\..\..\src\Render\ShaderMgr.h" />
+    <ClInclude Include="..\..\..\src\Render\SurfaceBuilder.h" />
+    <ClInclude Include="..\..\..\src\Render\TextureBuilder.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\MyVulkanWin32.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\buffersuballocator_vk.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\debug_util_vk.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\error_vk.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\images_vk.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\memallocator_dedicated_vk.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\memallocator_dma_vk.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\memallocator_vk.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\memorymanagement_vk.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\NvFoundation.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\nvprint.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\platform.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\resourceallocator_vk.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\samplers_vk.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\stagingmemorymanager_vk.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\swapchain_vk.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\trangeallocator.hpp" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanCommandBuffer.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanDescriptor.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanDeviceBuilder.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanGraphicsPipelineBuilder.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanPhysicalDeviceBuilder.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanGraphicsLib.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanImage.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanImageView.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanInstanceBuilder.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanMemory.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanQueueBuilder.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanRHI.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanHelper.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanShaderMgr.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanSurfaceBuilder.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanSwapChain.h" />
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanTextureBuilder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\Render\shader_template.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

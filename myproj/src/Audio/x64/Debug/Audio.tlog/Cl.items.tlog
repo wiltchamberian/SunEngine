@@ -1,0 +1,8 @@
+G:\SunEngine__old\src\Audio\Audio.cpp;G:\SunEngine__old\myproj\src\Audio\x64\Debug\Audio.obj
+G:\SunEngine__old\src\Audio\AudioImpl.cpp;G:\SunEngine__old\myproj\src\Audio\x64\Debug\AudioImpl.obj
+G:\SunEngine__old\src\Audio\dllmain.cpp;G:\SunEngine__old\myproj\src\Audio\x64\Debug\dllmain.obj
+G:\SunEngine__old\src\Audio\FrameWork\aldlist.cpp;G:\SunEngine__old\myproj\src\Audio\x64\Debug\aldlist.obj
+G:\SunEngine__old\src\Audio\FrameWork\CWaves.cpp;G:\SunEngine__old\myproj\src\Audio\x64\Debug\CWaves.obj
+G:\SunEngine__old\src\Audio\FrameWork\Framework.cpp;G:\SunEngine__old\myproj\src\Audio\x64\Debug\Framework.obj
+G:\SunEngine__old\src\Audio\FrameWork\LoadOAL.cpp;G:\SunEngine__old\myproj\src\Audio\x64\Debug\LoadOAL.obj
+G:\SunEngine__old\src\Audio\pch.cpp;G:\SunEngine__old\myproj\src\Audio\x64\Debug\pch.obj

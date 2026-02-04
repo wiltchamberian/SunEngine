@@ -1,0 +1,900 @@
+#if 0
+    struct SRawMesh {
+        //顶点位置数组
+        std::vector<vec3> poss;
+
+        //法线数组
+        std::vector<vec3> normals;
+        //主切线数组
+        std::vector<vec3> tangentX;
+        //副切线数组
+        std::vector<vec3> tangentY;
+
+        //颜色数组
+        std::vector<Vector4D> colors;
+
+        //纹理坐标数组(为兼容性，采用3d纹理)
+        std::vector<vec3> textures[MAX_MESH_TEXTURE_COORDS];
+        //标记纹理类别
+        unsigned int numUVComponents[MAX_MESH_TEXTURE_COORDS];
+
+        //顶点索引信息(必然是3的倍数)
+        std::vector<unsigned int> indices;
+        
+        //纹理包含的骨骼
+        std::vector<SBone> bones;
+
+        //顶点索引到关联骨骼索引的映射 
+        std::vector<VertexBoneInfo> maps;
+
+        //AABBbox
+        AABBBox box;
+    };
+#endif
+
+
+gameplay架构
+
+SClass
+
+//基类 （派生链)
+SObject->
+SActor->
+Pawn->
+SCharactor->
+
+
+//组件 
+SObject->
+SActorComponent->
+SSceneComponent->
+SPrimitiveComponent->
+
+SSpringArmComponent
+SCameraComponent
+SShapeComponent (碰撞检测) -> 
+    SSphereComponent
+    SBoxComponent
+    SCapsuleComponent
+SStaticMeshComponent (网格)
+
+
+
+万恶之源Class UObject
+
+一级派生Class UActorComponent 角色组件
+
+        1.Class UInputComponent 输入组件
+        2.Class UMovementComponent 移动组件
+
+二级派生Class USceneComponent 场景可见 包含Transform
+
+        1.Class UPost ProcesComponent 处理效果
+
+
+        USpringArmComponent
+三级派生Class UPrimitiveComponent 图源(Render 渲染 Physical 物理计算) 和Unity差别非常大
+
+        1.Class UMeshComponent 网格组件
+
+            (1).Class UStatic MeshComponent 静态网格组件
+                a.Class UStatic Mesh 网格实例
+
+            (2).Class USkinned MeshComponent 皮肤网格组件
+                b.Class USkeleta MeshComponent 骨骼网格组件
+                    b1.Class USkeleta Mesh 骨骼实例
+
+        2.Class UBrushComponent 笔刷组件
+
+        3.Class ULandscapeComponent 场景组件
+
+        4.Class ULightComponent 灯光组件
+
+            (1).Class ULightComponent Base 灯光大类组件
+                a.Class ULightComponent 光源组件
+                    a1.Class UDirect LightComponent 平行光组件
+                    a2.Class UPoint LightComponent 点光源组件
+                        a2_1.Class USpot LightComponent 射光源组件
+                b.Class USky LightComponent 天空光组件
+
+        5.Class UShapeComponent 形状组件
+
+            (1).Class UBoxComponent 正方体组件
+            (2).Class UCapsuleComponent 胶囊组件
+            (3).Class USphereComponent 圆柱组件
+
+        6.Class UAudioComponent 音频组件
+
+        7.Class UCameraComponent 摄像头组件
+
+
+
+
+
+
+
+UE4 RawMesh结构
+
+struct RawMesh{
+	/** Material index. Array[FaceId] = int32 */
+	TArray<int32> FaceMaterialIndices;
+	/** Smoothing mask. Array[FaceId] = uint32 */
+	TArray<uint32> FaceSmoothingMasks;
+
+	//顶点数组
+	TArray<FVector> poss;
+
+	//wedget表示三角形上的点，3个3个一组，以及对应的顶点索引
+	TArray<uint32> WedgeIndices;
+	//以widgeId为索引的 U向量（必须要以widgetId为索引才更有通用性，同一个公共顶点可能有不同的U向量)
+	TArray<FVector>	WedgeTangentX;
+	//以widgeId为索引的 V向量
+	TArray<FVector>	WedgeTangentY;
+	//以widgetId为索引的 法向量
+	TArray<FVector>	WedgeTangentZ;
+	//纹理坐标数组，uv贴图的个数,MAX_MESH_TEXTURE_COORDS=8
+    //第二个坐标也是WedgeId
+	TArray<FVector2D> WedgeTexCoords[MAX_MESH_TEXTURE_COORDS];
+	//颜色数组，也是wedgetId
+	TArray<FColor> WedgeColors;
+
+	/**
+	 * Map from material index -> original material index at import time. It's
+	 * valid for this to be empty in which case material index == original
+	 * material index.
+	 */
+	TArray<int32> MaterialIndexToImportIndex;
+}
+//UE4 Vertex
+#define MAX_TOTAL_INFLUENCES		12
+enum { MAX_TEXCOORDS = 4, MAX_STATIC_TEXCOORDS = 8 };
+struct FSoftSkinVertex
+{
+	FVector			Position;
+
+	// Tangent, U-direction
+	FVector			TangentX;
+	// Binormal, V-direction
+	FVector			TangentY;
+	// Normal
+	FVector4		TangentZ;
+
+	// UVs
+	FVector2D		UVs[MAX_TEXCOORDS];
+	// VertexColor
+	FColor			Color;
+	FBoneIndexType	InfluenceBones[MAX_TOTAL_INFLUENCES];
+	uint8			InfluenceWeights[MAX_TOTAL_INFLUENCES];
+
+	/** If this vert is rigidly weighted to a bone, return true and the bone index. Otherwise return false. */
+	ENGINE_API bool GetRigidWeightBone(FBoneIndexType& OutBoneIndex) const;
+
+	/** Returns the maximum weight of any bone that influences this vertex. */
+	ENGINE_API uint8 GetMaximumWeight() const;
+
+	/**
+	* Serializer
+	*
+	* @param Ar - archive to serialize with
+	* @param V - vertex to serialize
+	* @return archive that was used
+	*/
+	friend FArchive& operator<<(FArchive& Ar, FSoftSkinVertex& V);
+};
+
+//UE4
+USkinnedMeshComponent中有一个USkeletonMesh* 成员，USkinnedMeshComponent的材质
+全部存放在 USkeletonMesh的成员TArray<FSkeletalMaterial> Materials;
+每个FSkeletalMaterial包了一个UMaterialInterface*
+UMaterial继承UMaterialInterface*
+其get材质接口基本是返回Materials中的材质
+
+UStaticMeshComponent中有一个 UStaticMesh* 
+UStaticMeshComponent的材质接口 一般也是返回 UStaticMesh的材质
+UStaticMesh有个成员TArray<FStaticMaterial> StaticMaterials;
+FStaticMaterial也包了一个UMaterialInterface* ,其结构和FSkeletalMaterial基本类似
+
+USkeletalMesh{
+class UPhysicsAsset* PhysicsAsset; //布娃娃物理碰撞，
+TArray<UMorphTarget*> MorphTargets;
+FReferenceSkeleton RefSkeleton;
+TArray<FMatrix> RefBasesInvMatrix;   
+}
+
+//assimp
+class ai::Mesh{
+    //位域类别
+    unsigned int mPrimitiveTypes;
+
+    //顶点数组
+    unsigned int mNumVertices;
+    C_STRUCT aiVector3D *mVertices;
+    C_STRUCT aiVector3D *mNormals;
+    C_STRUCT aiVector3D *mTangents;
+    C_STRUCT aiVector3D *mBitangents;
+    C_STRUCT aiColor4D *mColors[AI_MAX_NUMBER_OF_COLOR_SETS];
+
+    //face个数，可以认为三角形个数（导入参数配置)相当于UE4的wedge
+    unsigned int mNumFaces;
+    C_STRUCT aiFace *mFaces;
+    
+    //每组mNumVertices个 共8组
+    C_STRUCT aiVector3D *mTextureCoords[AI_MAX_NUMBER_OF_TEXTURECOORDS];
+
+    //标记纹理坐标有效位数
+    unsigned int mNumUVComponents[AI_MAX_NUMBER_OF_TEXTURECOORDS];
+
+    
+    //包含的骨骼数
+    unsigned int mNumBones;
+    C_STRUCT aiBone **mBones;
+
+     //网格使用单一材质，如果导入的模型使用多级材质，导入过程将分裂网格,
+     //这个值可以索引场景中的材质列表
+    unsigned int mMaterialIndex;
+
+    //这些先不管
+    C_STRUCT aiString mName;
+    /** The number of attachment meshes. Note! Currently only works with Collada loader. */
+    unsigned int mNumAnimMeshes;
+
+    C_STRUCT aiAnimMesh **mAnimMeshes;
+    unsigned int mMethod;
+
+    //aabbbox
+    C_STRUCT aiAABB mAABB;
+}
+
+
+//UE4骨骼网格组件结构图
+导入资产:
+1,材质 * n
+2,物理资产 *1
+3,骨骼 *1  ->含 插槽若干 （关联5的关键)
+4,顶点数据
+5,骨骼网格->关联 1,2,3,4
+
+6,动画序列 *m
+
+7,自定义actor-> 骨骼网格组件->
+关联 5, 6
+
+//ue4架构
+//playercontroller对应玩家，
+//一台电脑可以有多个玩家（街霸)
+//playercontroller每个tick被调用一次
+
+//通过playerinput把
+//把事件消息传递给它控制的pawn
+
+
+//pawn或actor有一个uinputcomponent负责接收
+//
+
+AController{
+  PlayerState 
+  APawn* //controlled by the controller
+}
+
+APlayerController:AController
+{
+    APlayerCameraManager{
+        ACameraActor{
+            UCameraComponent
+        }
+    }
+
+}
+//UE4鼠标事件处理逻辑
+
+不知道从哪里调到pawn::lookup
+然后调到:
+void APlayerController::AddPitchInput(float Val)
+{
+	RotationInput.Pitch += !IsLookInputIgnored() ? Val * InputPitchScale : 0.f;
+}
+然后APlayerController的tick调到
+UpdateRotator
+通过RotationInput参数，再修改控制的pawn的状态，差不多这样
+
+
+//////////
+	/** List of all the controllers in the world. */
+	TArray<TWeakObjectPtr<class AController> > ControllerList;
+
+	/** List of all the player controllers in the world. */
+	TArray<TWeakObjectPtr<class APlayerController> > PlayerControllerList;
+
+	/** List of all the cameras in the world that auto-activate for players. */
+	TArray<TWeakObjectPtr<ACameraActor> > AutoCameraActorList;
+
+	/** List of all physics volumes in the world. Does not include the DefaultPhysicsVolume. */
+	TArray<TWeakObjectPtr<APhysicsVolume> > NonDefaultPhysicsVolumeList;
+
+	/** Physics scene for this world. */
+	FPhysScene*									PhysicsScene;
+
+
+////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////软件架构///////////////////
+总体介绍 太阳引擎 的软件架构
+
+level层 -> actor层-> 组件层 -> 资产层
+
+actor意思是角色，可以表示游戏中的一个有形实体，或者一个无形实体（其思想和UE4架构保持一致)
+
+为了简化设计,actor之间没有层级关系，每个actor相对独立，但一个actor有一个唯一的根组件rootComponent
+之下可以挂若干个组件，组件构成一颗树，以根组件为根节点；
+组件中最核心的要素是一个transform3D,描述该组件相对于父节点的位置信息，
+
+每个组件下可以挂若干资产，不同的组件类型能挂的资产类型不同；不同的actor下的组件可以认为是独立无关的实体
+
+资产层的资产为所有组件共享，组件通过唯一id关联到其资产，资产可以理解为网格，骨骼，动画等信息
+，这些信息通常在游戏建模阶段创建，在游戏进行过程中是不会修改的；这些称为preGame-Object，也就是游戏开始前就能确定，
+在游戏过程中不会变更的对象;
+
+资产创建流程如下:1,由各种建模软件创建 2，游戏引擎转化为内部格式，3，存储为内部格式文件，
+4，定义关卡（关卡关联到所有资产的一个子集)文件 5,游戏运行加载挂卡文件
+
+服务端和客户端的区别在于 服务端加载资产时，只需加载资产id号；而客户端才需要真正加载资产；
+
+服务单存储了所有actor,component,和对应的资产id信息，component中可以关联物理信息；因此服务端无需资产信息
+即可完成所有计算任务；
+
+服务端到客户端完整的一帧通信流程如下：
+1，客户端发送指令 到服务端，  服务端根据客户端的指令，修改关卡中所有actor以及相关component的状态，执行物理仿真等；
+计算结束后，通过actor,component的序列化功能打包，并以snapshot的形式发送到客户端;
+但是这里既然涉及到树形结构，序列化和反序列化必然消耗很多无意义的时间性能；
+
+为了解决该问题，考虑用内存池的方法来解决
+所有的actor和component的数据信息都统一存储在一块连续内存片上，以内存池的方式存储，每个对象通过
+内存池首地址+偏移量 唯一确定 ，服务端和客户端各自有自己的首地址，但对应的相同对象的偏移量却是相同的；
+因此，snapshot操作变的异常简单，只需要将整个内存片段 复制到 客户端并 覆盖即可。
+不过这里对网络包的完整性要求变高了，实际上的内存池远大于网络包一帧1400字节大小；必然分段发送，这样可能带来切片问题
+；
+
+为了解决这个问题，改进的方案针对每个actor分配一个唯一的内存池，该actor和其关联的所有组件都存储在一个块连续的区域中
+，这块连续区域不会过大，可能会超过1400字节，但不会分片太多；因此这些片同时不丢失的概率大大提高；
+这样每个actor通过内存拷贝的形式复制，从而大幅度省去了序列化的时间;
+同时，这样整个游戏引擎中不再需要复杂的序列化模块，也就不需要元系统与反射的支持了。
+序列化和反序列都变成了简单的memcpy操作。
+
+但是这带来一个问题，就是acotor中组件指针失效问题，由于每个actor的组件树节点长度不同，可以动态
+添加删除，考虑到网络存在丢包，因此直接memcpy的方法将不适用了，指针的失效，偏移量的错误，无法解决；
+
+继续思考
+采用unity原型的设计思路
+1,所有actor结构体固定长度，存储在一块连续内存上
+2，每一种类型的组件（长度固定)也分配一个固定的内存区域；
+3,根组件有 children数组，这个数组由于长度会变化,只能分配在动态区域，其存的是子组件的偏移量;
+4,每一个组件的位置在创建到销毁的过程中永远不会变；如果废气，标记为unuse;
+5,这样如果要更新一个actor以及其关联的子组件树，无需序列化树形结构，只需把每个actor和组件的信息发送
+过来，6客户端直接更新每个即可；
+
+
+
+///////////////////////////Unity的ECS架构///////////////////////////
+
+
+EntityAdmin{
+array<System*> m_system
+hash_map<EntityId, Entity*>
+object_pool<Component*>
+array<Component*>
+void update(f32 timestamp){
+  for(System* s:m_system){
+      s->update(timestamp);
+  }
+}
+}
+
+Entity{
+EntityId
+array<Component*>
+resourceHandle;
+}
+
+System{
+void Update(f32)
+void NotifyComponent...(Component*);
+}
+
+Component{
+void Create(resource* );
+~Component()
+}
+
+
+
+
+
+
+
+//////////////////
+
+
+
+
+
+
+
+
+////////////////////////////////////////////
+
+完美解决方案，用slibingTree即可完美解决关系问题
+自研引擎gameplay架构
+
+untiy抽象出了gameobject和component的概念，UE4抽象出了actor和component
+
+为了使得我们的对象描述更清晰，我们抽象出三层概念
+actor->roter->component
+
+actor类似untiy的enity,唯一id标识，其关联到一个根roter;
+roter之间有层级结构，这一点很像ue4的coponent，为了避免component的层级结构混乱，
+我们抽象出了component概念，对于我们的component只是一个属性而已，无法表达层级结构，层级结构只能由roter表达
+而我们的ecs架构可以基于roter的原型来构建
+
+
+///////////////////////////////////////
+资源管理需求：
+1，句柄全局唯一：由于资源之间通过句柄引用，如果软件重启再加载另一组资源的句柄
+相同，则带来问题就是句柄不唯一，导致引用出错
+
+2，删除资源之后，所有引用者可以感知到
+2-1 智能指针实现
+2-2 句柄数组实现
+
+3，删除资源并不频繁的释放内存，句柄数组实现效果比较好
+
+4，重复加载相同资源会自动返回之前的；
+
+5，句柄可以方便的序列化（建议用guid)
+
+6, 认为可以指定输出guid（比如我想用资源A,覆盖资源B,）
+解: 可以给资源对象一个名字，如果名字相同则，覆盖；但是guid仍然用自己的,避免了用
+名字不定长的序列化问题
+
+解决方案：句柄用guid模板，资源附加名字；
+资源不带指针，只是POD结构，和句柄（名字除外)
+名字可能考虑优化，不用字符串
+
+//自定义资产数据格式
+[ packhead  定长
+  asset_head  定长，含资产类别，由于类别唯一对应到class,结合pod属性
+  唯一对应到长度（需要将name,变为int型，优化)
+  asset_data
+  asset_head
+  asset_data ...
+]
+
+//什么是资产？
+特点：
+1，游戏运行前即可确定，运行期一般不会变更：
+如模型网格，动画，材质，纹理，着色器等；
+2，可能会被多个游戏实体关联，比如多个实体可以共用一组网格
+或者着色器；
+3，资产由资产管理器AssetsMgr统一管理,方便序列化，网络同步，
+以及内存管理
+
+
+////////////////////////////////////////
+
+问题：
+1，opengl才有VAO,其余引擎不确定有无VAO的概念
+，如何统一封装?
+答案：有 
+
+2，
+一般来说静态数据都直接传给GPU,之后每次就是切换上下文，
+修改矩阵，然后调DrawCall
+这样每帧每个rotor都要对应一次DrawCall
+
+所以最好能合并提交VAO,所有rotor数据，先按
+shader分类：
+单个shader下，不同rotor的按照结构分类
+
+最终相同结构，相同着色器，只是矩阵不一样的放在一起，
+比如共有100个，则可以给gpu内部临时放100个矩阵
+
+
+导出VAO一般在初始阶段，如何分类导出?
+实现矩阵对应？
+
+
+////////////////////////////
+void FScene::AddPrimitive(UPrimitiveComponent* Primitive)
+
+//gltf格式隐藏设定
+对于某个顶点关联的骨骼节点索引
+如果该索引不在该顶点所在mesh对应的蒙皮节点中，
+则该节点应该关联到 蒙皮节点的最上根节点
+（并且这个根节点也要放入蒙皮节点中)
+//貌似是这种奇怪设定。。。
+
+
+////////////////
+经过一番折腾
+1，初始渲染和组件层相互依赖
+2，为了去除依赖增加了renderHelper,renderHelper依赖渲染和组件层
+3,后来发现虽然解了耦合，但renderHelper需要从组件层中提取数据的代码过于恶心.
+4，又去掉了renderHelper,直接组件依赖render,这样算还好，但是带来的问题就是组件需要实现prepareRender和render
+导致组件层非pod,并且强依赖render,
+5，由于组件只通过接口prepareRender和render依赖render,目前准备增加renderSystem,
+6, 但是这样renderSystem又退化为了renderHelper,因此决定增加原语层，组件持有原语句柄
+
+
+
+//网格如何合批让我纠结:
+1,固定位置的静态网格，可以在初始化时统一坐标系，然后根据材质合批（
+2，变化位置的静态网格，根据材质合批
+3，是否可以把所有的材质以数组形式一次性传递到GPU，再在顶点中关联到对应的材质信息
+
+现代渲染管线：
+for each renderpass
+    for each shader
+        for each material 
+            for each obj
+
+1,按照引擎结构，renderPass可以理解为一次着色，比如延迟着色的几何着色阶段
+
+
+//////////////////////
+UE4遮挡剔除过程:
+1,距离剔除
+2,视锥体剔除
+3,与计算可视化
+4,遮挡剔除
+
+
+/////////////////////////////渲染管线自定义概念定义//////////////////////////
+CG领域中有许多大家熟知的概念，比如渲染管线，延迟着色，drawCall,renderPass等等，虽然这些是业界常识
+但是精确个人理解，可能每个人的理解都有细微偏差，具体到不同图形API设计理念，等等现实中复杂情形，
+我们有必要重新梳理这些概念，本人给出以下概念定义，这个是个人理解，可能和业界统一词汇含义有所出入。
+
+1，renderPass 
+我将renderPass定义为游戏中一帧开始到一帧结束，整个渲染相关的流程，称为一次renderPass;它包含一帧中
+和渲染相关的一切
+
+2,shader 着色器
+着色器，这个概念其实也有歧义，在opengl中，可以定义顶点着色器，片段着色器，这些着色器可以编译为一个程序
+，而业界通常将这个程序称为着色器，这样很容易混淆；
+个人定义shader，就是指单独一个着色器片段的glsl（或者其他)的代码，比如顶点着色器，片段着色器；
+
+3,shaderProgram 着色器程序
+多个着色器片段编译链接而成的program，就称为着色器程序；这样着色器程序和着色器是不同概念，不会混淆
+
+4,shaderPass(其实应该叫shaderProgramPass，不过为了简单，就叫shaderPass吧)
+这个我自定义的概念，为了阐明后续概念，个人认为有必要定义这个概念,这个概念指的是一个shaderProgram
+被执行一次的流程；对于简单情形，也可以认为就是对游戏中的一个网格执行了一次渲染。
+
+5,待明确的概念
+一次renderPass，游戏中有许多需要渲染的对象，我们会把这些对象
+渲染到一个target上，有几种可能：
+
+1)，最简单的case:每个对象走完一次shaderpass,结束  （基础光栅化渲染管线)
+
+2)，每个对象依次走完各自的shaderPass,这个流程完成之后；利用之前的target信息；
+再进行一遍将每个对象渲染到另外一个target上的过程；也就是每个对象各自再进行一遍shaderPass；
+(延时着色) 这种情形可以看成1中情形反复执行了2次;
+
+3)，每个对象走若干shaderPass，结束 （ 比如光线追踪管线，或者粒子管线，要经历计算着色器等多个步骤)
+
+那么我们有没有什么办法，把这些统一到一个框架下，明确定义；
+
+个人认为可以如下处理，就可以把以上3种概括为一种（这个方法还有待探讨)
+
+6,我们可以定义subPass;
+subPass指的就是1中的流程； 但是此时我们要把1中的流程泛化，允许每个对象走多次shaderPass(>=1)
+那么2就可以用表示多个subPass表示
+
+7，那么我们有必要定义一个新的概念，就objPass,之前的shaderPass指的是一次着色器执行；
+现在一个obj可以走多个shaderPass，我们把这个称为objPass;
+
+最后我们做一个概括:
+1,renderPass 游戏一帧所有渲染处理
+2,subPass ,所有对象完成游戏中的一次渲染到renderTarget（未必最终)  ,renderPass可以包含多个subPass（延时着色）
+3,objPass,一个对象经历多个shaderPass渲染到一个target上的过程
+4,shaderPass,着色器程序走一遍
+
+综上:renderPass包含多个subPass,每个subPass包含多个objPass,每个objPass包含多个shaderPass
+整个逻辑清晰明了.
+
+下面，我们看看如何利用这个逻辑来设计，高性能渲染模式；
+其实所谓高性能，无非就是减少cpu的drawCall次数，以及状态切换次数。
+
+先简单处理，每次subPass，对于objPass只包含单个shaderPass的放在一起，按照顺序
+
+////////////////////////////////////////////Opengl的几个概念理解记录///////////////////////////
+VAO ,VBO
+glBindBuffer,glEnableVertexAttribArray,glVertexAttribPointer ,glBindVertexArray这些概念可以这样理解:
+1,申请vao,绑定vao,只有进行了绑定之后那些函数才能生效;
+2,glBindBuffer ,这句话的意思就是把 vbo的句柄 放到某个GlobalVarialbe的地方存着；
+3，glEnableVertexAttribArray的含义可以认为是打开vao的某个顶点属性配置，之后的参数记录都对应该顶点属性
+4,glVertexAttribPointer的含义是除了配置格式之外，还会读取之前GlobalVariable的值，然后把这些打包到VAO对应的属性通道中
+5,综上，我们可以这样理解，VAO是一个数组，数组的索引对应顶点属性的索引，数组中每个元素对应一个顶点属性，其中记录了2个信息:1,对应的vbo句柄，2，该vbo的格式信息；
+6，glEnableVertexAttribArray的含义表示我们要配置vao数组中哪个元素（同时表示开启该顶点属性);
+7,glBindBuffer仅仅表示把vbo句柄传给opengl的某个全局变量GL_ARRAY_BUFFER;
+8,glVertexAttribPointer,会把 输入参数的 格式 以及 全局变量GL_ARRAY_BUFFER处存储的vbo索引，打包传递给vao的对应属性配置,
+大概就这么个逻辑.
+
+
+////////////////////////////////////////////////////////UE渲染原则解析////////////////////////////////////////////////////////
+通过renderDoc摸清楚了UE4的渲染流程
+
+1，同源网格体（也就是一个菜单项拖出来未编辑的，或者复制的),如果材质也相同，将合并到一起进行drawInstance操作；
+2，以上两个条件之1不满足，则单独drawIndexed
+3, 即使多个同源（材质相同）物体，如果只有几个在视口中，则只渲染那几个（>1则实例，否则非实例)
+4, 一个物体只要有一小部分，在视口中出现，就会被触发渲染
+
+
+1,UE4通过 renderPass,顶点工厂 ，材质系统 共同决定 一组shaders;
+如果把所有渲染逻辑存入网格，导致其中一个维度变化就需要派生一种新的网格类型，得不偿失，因此考虑
+组合模式，把渲染需要的资源拆成 不同 部件
+
+目前考虑有以下可以拆出来
+1，顶点数据
+2，材质uniform（主要是纹理)
+3, 变换矩阵uniform
+4, 光源
+
+//如何构建一个丰富的具备可玩性的游戏世界?
+//人工定义一些元素(gameobject),
+//可以分类为以下:
+//1，静态gameobject:桌子，房子，墙，水壶，盒子；等等；
+//2，动态gameobject --  1周期动画gameobject(固定的周期式动画)
+                     2,触发动画go, (通过某些事件触发，目前考虑charactor触发)
+//3,charactor :角色，人为控制的或者AI控制的go, 
+//4，声音go ，相对简单
+
+当设计师定义了所有这些go之后，我们就可以利用随机算法，给整个空间布上一个大3d-grid,
+//然后利用每个go的aabbbox,来随机生成其位置，可以利用各种树结构避免位置冲突
+
+//5，对于大量静态物体之间实际上无需进行碰撞检测，只需做charactor和静态物体以及 charactor之间的碰撞检测
+
+//6,物理gameobject:支持给gameobject加上物理元素，该gameobject将具备碰撞检测能力 ，和 物理受力能力。
+
+
+
+////////基础组件定义////////////////////
+即使是定义一些基础go,也需要由更基础的组件搭建起来，我们来定义一些
+基本类型网格，同时定义一些基本碰撞检测元素，碰撞检测元素定义在
+
+
+
+//////////////////////////////物理引擎gameplay逻辑//////////////////////////
+1,目前分为3个tick,一个是力场的tick,一个是对象本身的tick,
+还有碰撞系统的tick;
+目前设计为:力场的tick只更新物体的速度矢量；而物体自身的tick负责计算理想偏移量（利用力场更新后的速度)
+
+碰撞系统的碰撞部分和响应的部分都以理想偏移量为输入，
+第一部分输出HitRecord;
+第二部分，输入是HitRecord和理想偏移量，计算最终位移
+
+
+///////////////////////////////////UE4渲染流程/////////////////////////////////
+1,Z-Prepass
+2,Compute light grid
+3,Occlusion query
+4,HZB generation
+5,ShadowMap
+6,G-prepass
+7,Velocity rendering
+8,Pre-Lighting (屏幕空间贴花，环境光遮罩)
+9,Lighting
+10,ImageBased lighting
+11,Post Processing
+
+
+/////////////////////////////////////////////////////////////
+/////////////////////////Unity的gameplay架构///////////////////
+gameObject.AddComponent<MeshFilter>();  
+gameObject.AddComponent<MeshRenderer>();  
+/*
+SkinnedMeshRenderer
+*/
+list = new List<Vector3>();  
+mesh = GetComponent<MeshFilter>().mesh;   
+mesh.vertices;mesh.triangles;
+GetComponent<MeshRenderer>().material.color =Color.green;  
+GetComponent<MeshRenderer>().material.shader = Shader.Find("Transparent/Diffuse");  
+//清空所有点，用于初始化！  
+mesh.Clear(); 
+
+
+///////////////////////////////////UBPA-ECS结构图////////////////////
+
+EntityMngr{
+//EntityInfo数组，对应每个entity
+std::vector<EntityInfo> entityTable;
+//空闲位，标记已经释放的entity
+std::vector<std::size_t> entityTableFreeEntry;
+}
+//标记该Entity关联的原型 ，以及该Entity的数据再原型对应的Chunk链中的位置，以及Chunk中的位置
+struct EntityInfo {
+	Archetype* archetype{ nullptr };
+	std::size_t chunkIdx{ static_cast<std::size_t>(-1) };
+	std::size_t idxInChunk{ static_cast<std::size_t>(-1) };
+	std::uint64_t version{ 0 }; // version
+};
+
+Entity{
+std::uint64_t index; //指向entityTable的索引
+std::uint64_t version; //初始化存放着entityTable对应的EntityInfo里的version
+}
+
+class Archetype{
+small_vector<Chunk*> chunks;  //原型对应的chunk
+small_vector<std::size_t> offsets; // 这个含义是该原型的类型组件的局部偏移量
+small_flat_set<std::size_t, 16, std::greater<std::size_t>> nonFullChunks; //记录着chunks中
+//没有满的chunks的索引
+}
+
+/*********************************Visual Studio踩坑总结******************************/
+1,把一个静态库，在 “常规”-“配置类型”中强行改为静态库之后，还需要在
+高级 中 把目标文件扩展名 改为.dll (否则会报错)；注意动态库和静态库字符集不太一样
+2,ZERO_CHECK工程会检查cmake ，如果配置和cmake不一样，会根据cmake重新生成工程，所以需要确实不一样时把它卸载
+
+
+/***********************************GPU编程常见问题汇总********************************/
+gpu编程经常会遇到各种奇葩问题，一点小问题就导致显示不对，这里做个经验总结，
+
+1，着色器编译问题
+有些没有用到的变量自动不编译，默认为不存在，经常会进断言，这个问题不知道如何解决，只能忽略断言，或者
+改为日志输出
+
+2, 注意申请的网格和材质一定要allocGpu才行；
+
+3，物体看不见可能是因为颜色和背景一样
+
+4,有些工程如BuildIn,不会自动编译，修改之后必须手动编译;因此最好先整个解决方案生成下，再把Sun生成下
+
+5,着色器有些纹理绑定之后，没有取消绑定，则下一个对象，如果没有对应的贴图，会默认使用之前的贴图
+
+6,注意uniform的设置前一定要glUseProgram，否则无效；同时注意unform变量传的是否正确
+
+7,几何着色器会让顶点里配置的pointSize失效，需要重配
+
+8,切换工程之后，目录可能不对，需要注意一下断言
+
+9,在Qt模式下raw  Render需要执行以下代码，否则不work
+        g_graphicsLib->disable(ECapability::DEPTH_TEST);
+		g_graphicsLib->enable(ECapability::BLEND);
+		glBlendFunc(GL_SRC_ALPHA, GL_ONE);
+
+10,level应当调用render而不是renderPass(应作为私有),render会执行msgCenter，这里会执行光照提交逻辑
+
+11，如果用了geometry shader,则在vertex设置的pointSize，必须在geometry Shader再设置一遍，否则会有问题
+
+12,阴影贴图注意点:
+12-1:ShaderMgr.json中的uniforms一定要设置，并且NormalPass和SimplePass对应值必须匹配
+
+/*****************************************************************************************
+
+/***********************************QML踩坑记录********************************/
+1,qml中的函数内部，如果有代码错误，则这段代码以及之后的不执行，之前的可以正常执行
+2,主qml引用另外的同目录的qml文件，qml文件名最好都大写字母开头，同时qml都加入到qrc中，否则不能正常work
+3,import的QtQuick2.1,QtQuick.Controls 的似乎大版本要一致，否则有问题
+4,Label使用需要import QtQuick.Controls
+5,自带的Button字体颜色不好改变，需要自己实现Button
+
+/****************************************************************************************
+
+/*************************************OpenAL实验结果**********************************/
+1,ALSource 在绑定到一个buffer之后，如果没有play，可以直接绑定到另外一个buffer，此时会取消对第一个buffer的绑定；
+
+2,play之后，如果play的状态没有stop，则再绑定或play都无效；当stop之后；则可以切换绑定，并再次play
+
+
+
+
+/************************************************************************************/
+
+DOOM3架构网址:
+https://fabiensanglard.net/doom3/doom3_unrolled.php
+
+DOOM3软件架构:
+1,DoomDll名字叫dll，实际是个exe.这是引擎主要代码所在，
+其中编辑器部分应该位于Tools文件夹中
+
+下面梳理一下一个entity从创建到使用的全流程
+1,编辑器模式下点击OnBnClickedButtonCreate 按钮
+2,调用CreateEntity()->
+该函数会根据当前选中的brush 和entityType创建一个entity_t对象（实际会根据按没按ctrl,shift进行不同逻辑）
+但是最终都会调用
+3,Entity_Create ->
+真实new一个entity_t在堆上，并传入全局 entities 链表中；创建entity时会根据 界面输入的名字作为key hash一个
+eclass_t* ，并让该entity的eclass 指向eclass_t*
+4, Entity_Create内部调用
+会创建一个entity_t并插入全局链表；同时会根据当前选中的brushes来填充entity,但是这里有个两个逻辑
+一个是只是根据选中的brush寻找中心点，还有一个是真的把这些brush挂载到entity下
+追踪都会调用到
+5，buildBrush 其中核心为 Brush_BuildWindings 
+这个函数会根据brush的faces生成相关的windings
+
+//至此entity创建好了，但有个两个问题，1)界面的brush是怎么生成的，2)entity后续怎么处理
+
+//CMainFrame的OnBspCommand -> RunBsp ->Map_SaveFile
+这个函数内部会遍历全局 entities 链表中的所有entity,并调用
+map.AddEntity(EntityToMapEntity(e, use_region, &dlg));
+其中map是idMapFile ，最后调用idMapFile::Write写文件
+
+idCollisionModelManagerLocal::BuildModels函数 输入是一个idMapFile
+其调用LoadCollisionModelFile会从文件中读取models,如果调用失败；则会把idMapFile中的idMapEntities取出来，
+然后根据idMapEntities生成相应的models,同时存入一份到相同的文件中
+
+综上，整个流程就清楚了:
+一，编辑器流程
+1,通过编辑器生成一些brush （这部分具体如何生成还需要看代码,void CXYWnd::NewBrushDrag(int x, int y)可能是初始brush创建时)
+2,选中一些brush，然后点击OnBnClickedButtonCreate生成entity,会根据这些brush生成一个entity,并存入全局entities数组
+3,点击OnBspCommand->RunBsp，则会遍历所有的entities,讲这些entity转为idMapEntity,并存入idMapFile结构
+4,然后idMapFile调用Write,把这些idMapEntity写入文件;
+二，引擎加载流程
+1,游戏运行调用idGameLocal::LoadMap
+它会创建一个idMapFile，并用它解析.map文件；解析结果存在其成员idList<idMapEntity *>中，
+2，接着调用collisionModelManager->LoadMap( mapFile );
+这个函数做一些预处理之后，把这些idList<idMapEntity *>转为models,同时会再把这些modles回写一份到文件中，
+下次加载省去了转化时间
+
+/*****************************************Vk DOOM3渲染流程**********************************/
+渲染分两部分：前端，后端；前端生成数据和指令；后端处理
+
+前端流程如下:
+idCommon::Frame ->idGameThread::RunGameAndDraw() ->
+idGameThread::Run()-> idCommonLocal::Draw -> idGameLocal::Draw
+->idPlayerView::SingleView -> idRenderSystemLocal::RenderScene -> idRenderSystemLocal::RenderView
+-> {
+//一些列参数设置，其中比较关键有
+AddLights 
+AddModels  -> R_AddSingleModel :这里会修改  vertexCache ，而这个就是后端渲染的数据源
+
+}
+
+后端流程:
+idCommonLocal::Frame->
+idRenderSystemLocal::RenderCommandBuffers->idRenderBackend::Execute->idRenderBackend::DrawView->
+{
+ 各种着色管线处理以及 vkCmd调用
+}
+
+///////////////////////引擎设计新思想/////////////////
+
+游戏中要创建一种新的GameObject类型，就需要实现C++代码，再重新编译
+整个引擎，这种机制十分复杂。设计了一种新机制解决这个问题
+
+实现一个dll模板文件，其中提供5个函数 
+1,Entity create(), 
+2 update(void*), 
+3,set(std::string,float ) 
+4,destroy()
+5,type()
+6,systemType(SystemType* data, size_t& num);
+这4个函数的签名是确定的。对应对象的创建，帧更新，设置参数，销毁
+
+使用者自定义一个结构体，实现在文件上方.然后在create中返回一一个这个
+结构体的对象；
+update中实帧更新逻辑 
+
+systemTypes()的含义解释如下：如果一对象要支持碰撞检测，则会有一个专门
+做碰撞检测的system,该system的Type是一个枚举表示；则用户需要该对象支持哪些处理
+系统，就在systemType中添加即可。
+
+set输入的字符串是成员名的字符串，其内部实现可以自动生成，表示给这个成员赋值;
+比如: set(string str, float value){
+    if(str == "age") { age = value; }
+    else if(str == "gender") { gender = value};
+}
+
+

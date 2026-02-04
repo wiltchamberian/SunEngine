@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Util\Traits\Traits.cpp">
+      <Filter>Source Files\Traits</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\Traits\TraitsTest.cpp">
+      <Filter>Source Files\Traits</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\SunTaskFlow\Executor.cpp">
+      <Filter>Source Files\SunTaskFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\SunTaskFlow\MsgQueue.cpp">
+      <Filter>Source Files\SunTaskFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\SunTaskFlow\Task.cpp">
+      <Filter>Source Files\SunTaskFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\Str.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\Alloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\Byte.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\CircularQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\Clock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\Crc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\Factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\GeneralMemoryPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\Guid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\Hash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\HFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\MemoryPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\PSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\QuickMemoryPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\QuickVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\sp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\TreePrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Util\VideoMemoryPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7630E6AA-30AF-3A8B-9690-3B35C64AB87E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{671c8cdc-acf8-4349-baeb-635f81d8991b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SunTaskFlow">
+      <UniqueIdentifier>{336d246e-48b7-4727-b3e4-c68505c15b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Traits">
+      <UniqueIdentifier>{23881764-39ad-44e2-9719-e7cb883dbbd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\Util\base\build_config.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\base\logging.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\base\template_util.h">
+      <Filter>Source Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\Traits\Traits.h">
+      <Filter>Source Files\Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\Traits\TraitsTest.h">
+      <Filter>Source Files\Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\Traits\TypeList.hpp">
+      <Filter>Source Files\Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\SunTaskFlow\Executor.h">
+      <Filter>Source Files\SunTaskFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\SunTaskFlow\MsgQueue.h">
+      <Filter>Source Files\SunTaskFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\SunTaskFlow\Task.h">
+      <Filter>Source Files\SunTaskFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\SunTaskFlow\ThreadPool.h">
+      <Filter>Source Files\SunTaskFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\LRUCache.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\Test.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\ResourceMgr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\VectorWrapper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\FileIO.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\Util.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Util\Str.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\Util\Traits\TypeList.inl">
+      <Filter>Source Files\Traits</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\src\Util\CMakeLists.txt" />
+  </ItemGroup>
+</Project>

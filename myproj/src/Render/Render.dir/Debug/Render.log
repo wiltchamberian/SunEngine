@@ -1,0 +1,748 @@
+﻿D:\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2189,5): warning MSB9008: 引用的项目 E:\GIT\testproj\SunEngine\myproj\ZERO_CHECK.vcxproj 不存在。
+D:\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(524,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  ContextBuilder.cpp
+  GLEnumMap.cpp
+G:\Sun\SunEngine\src\Render\GLEnumMap.cpp(747,27): warning C4101: “state”: 未引用的局部变量
+  GLFunctions.cpp
+  GLGraphicsLib.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Render\GLGraphicsLib.cpp(641,92): warning C4312: “类型强制转换”: 从“int”转换到更大的“void *”
+G:\Sun\SunEngine\src\Render\GLGraphicsLib.cpp(646,82): warning C4312: “类型强制转换”: 从“int”转换到更大的“void *”
+G:\Sun\SunEngine\src\Render\GLGraphicsLib.cpp(722,105): warning C4312: “类型强制转换”: 从“const unsigned int”转换到更大的“void *”
+G:\Sun\SunEngine\src\Render\GLGraphicsLib.cpp(725,88): warning C4312: “类型强制转换”: 从“const unsigned int”转换到更大的“void *”
+  GLGraphicsProxy.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GLGraphicsProxy.cpp”)
+  
+  GLIndexBuffer.cpp
+  GLMacros.cpp
+  GLProgram.cpp
+  GLShader.cpp
+  GLTexture.cpp
+  GLVertexArray.cpp
+G:\Sun\SunEngine\src\Render\GLVertexArray.cpp(33,105): warning C4312: “类型强制转换”: 从“const unsigned int”转换到更大的“void *”
+G:\Sun\SunEngine\src\Render\GLVertexArray.cpp(36,88): warning C4312: “类型强制转换”: 从“const unsigned int”转换到更大的“void *”
+  GLVertexBuffer.cpp
+  GraphicsCache.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsCache.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsCache.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsCache.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsCache.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsCache.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsCache.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsCache.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsCache.cpp”)
+  
+  GraphicsLib.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLib.cpp”)
+  
+  GraphicsLibFactory.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLibFactory.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLibFactory.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLibFactory.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLibFactory.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLibFactory.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLibFactory.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLibFactory.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsLibFactory.cpp”)
+  
+  GraphicsPipeline.cpp
+  GraphicsPipelineBuilder.cpp
+  GraphicsProxy.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsProxy.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/GraphicsProxy.cpp”)
+  
+  GTexture.cpp
+  IndexBuffer.cpp
+  正在生成代码...
+  正在编译...
+  Program.cpp
+  RenderAPI.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderAPI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderAPI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderAPI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderAPI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderAPI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderAPI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderAPI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderAPI.cpp”)
+  
+  RenderCommandBuffer.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderCommandBuffer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderCommandBuffer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderCommandBuffer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderCommandBuffer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderCommandBuffer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderCommandBuffer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderCommandBuffer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RenderCommandBuffer.cpp”)
+  
+G:\Sun\SunEngine\src\Render\RenderCommandBuffer.cpp(8,27): warning C4018: “<”: 有符号/无符号不匹配
+  RHI.cpp
+  GraphicsPipelineMgr.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/GraphicsPipelineMgr.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/GraphicsPipelineMgr.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/GraphicsPipelineMgr.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/GraphicsPipelineMgr.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/GraphicsPipelineMgr.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/GraphicsPipelineMgr.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/GraphicsPipelineMgr.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/GraphicsPipelineMgr.cpp”)
+  
+G:\Sun\SunEngine\src\Render\RHI2\GraphicsPipelineMgr.cpp(125,35): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244: “参数”: 从“_Ty”转换到“_T”，可能丢失数据
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:         with
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:         [
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:             _Ty=double
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:         ]
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:         and
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:         [
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:             _T=float
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:         ]
+  (编译源文件“../../../src/Render/RHI2/GraphicsPipelineMgr.cpp”)
+      D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Render\RHI2\GraphicsPipelineMgr.cpp(135,37):
+          查看对正在编译的函数 模板 实例化“std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4> &std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::operator =<double,0,0>(_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Ty=double
+          ]
+              G:\Sun\SunEngine\src\Render\RHI2\GraphicsPipelineMgr.cpp(135,37):
+              请参阅 "Sun::GraphicsPipelineMgr::loadShaders" 中对 "std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::operator =" 的第一个引用
+  
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244: “参数”: 从“_T”转换到“_T”，可能丢失数据
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:         with
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:         [
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:             _T=double
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:         ]
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:         and
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:         [
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:             _T=float
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:         ]
+  (编译源文件“../../../src/Render/RHI2/GraphicsPipelineMgr.cpp”)
+      D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Render\RHI2\GraphicsPipelineMgr.cpp(135,37):
+          查看对正在编译的函数 模板 实例化“std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4> &std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::operator =<double,0,0>(_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Ty=double
+          ]
+              G:\Sun\SunEngine\src\Render\RHI2\GraphicsPipelineMgr.cpp(135,37):
+              请参阅 "Sun::GraphicsPipelineMgr::loadShaders" 中对 "std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::operator =" 的第一个引用
+          D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1006,17):
+          查看对正在编译的函数 模板 实例化“Sun::Vector3D<float> &std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::_Emplace_valueless<1,_Ty>(_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Ty=double
+          ]
+          D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1129,14):
+          查看对正在编译的函数 模板 实例化“void std::_Construct_in_place<std::_Variant_storage_<true,int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>,std::integral_constant<size_t,1>,_Ty>(std::_Variant_storage_<true,int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4> &,std::integral_constant<size_t,1> &&,_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Ty=double
+          ]
+          D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(476,61):
+          查看对正在编译的函数 模板 实例化“std::_Variant_storage_<true,int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::_Variant_storage_<1,_T,0>(std::integral_constant<size_t,1>,_T &&) noexcept(false)”的引用
+          with
+          [
+              _T=double
+          ]
+          D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(356,16):
+          查看对正在编译的函数 模板 实例化“std::_Variant_storage_<true,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::_Variant_storage_<_T>(std::integral_constant<size_t,0>,_T &&) noexcept(false)”的引用
+          with
+          [
+              _T=double
+          ]
+  
+  RenderBluePrint.cpp
+  RH2_Opengl.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RH2_Opengl.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RH2_Opengl.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RH2_Opengl.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RH2_Opengl.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RH2_Opengl.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RH2_Opengl.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RH2_Opengl.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RH2_Opengl.cpp”)
+  
+  RHI2.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2.cpp”)
+  
+  RHI2_Vulkan.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2_Vulkan.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2_Vulkan.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2_Vulkan.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2_Vulkan.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2_Vulkan.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2_Vulkan.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2_Vulkan.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHI2_Vulkan.cpp”)
+  
+  RHIOpenglSurfaceBuilder.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIOpenglSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIOpenglSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIOpenglSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIOpenglSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIOpenglSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIOpenglSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIOpenglSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIOpenglSurfaceBuilder.cpp”)
+  
+  RHISurfaceBuilder.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHISurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHISurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHISurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHISurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHISurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHISurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHISurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHISurfaceBuilder.cpp”)
+  
+  RHIVulkanSurfaceBuilder.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIVulkanSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIVulkanSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIVulkanSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIVulkanSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIVulkanSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIVulkanSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIVulkanSurfaceBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RHIVulkanSurfaceBuilder.cpp”)
+  
+  RSI.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RSI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RSI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RSI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RSI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RSI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RSI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RSI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/RHI2/RSI.cpp”)
+  
+G:\Sun\SunEngine\src\Render\RHI2\RSI.cpp(73,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\Sun\SunEngine\src\Render\RHI2\RSI.cpp(78,32): warning C4018: “<”: 有符号/无符号不匹配
+G:\Sun\SunEngine\src\Render\RHI2\RSI.cpp(174,50): warning C4267: “参数”: 从“size_t”转换到“uint32_t”，可能丢失数据
+G:\Sun\SunEngine\src\Render\RHI2\RSI.cpp(182,57): warning C4267: “参数”: 从“size_t”转换到“uint32_t”，可能丢失数据
+G:\Sun\SunEngine\src\Render\RHI2\RSI.cpp(185,58): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+G:\Sun\SunEngine\src\Render\RHI2\RSI.cpp(305,46): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+G:\Sun\SunEngine\src\Render\RHI2\RSI.cpp(322,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  RHI3.cpp
+  Shader.cpp
+  ShaderManager.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/ShaderManager.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/ShaderManager.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/ShaderManager.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/ShaderManager.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/ShaderManager.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/ShaderManager.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/ShaderManager.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/ShaderManager.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Render/ShaderManager.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Render\ShaderManager.cpp(192,35): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244: “参数”: 从“_Ty”转换到“_T”，可能丢失数据
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:         with
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:         [
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:             _Ty=double
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:         ]
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:         and
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:         [
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:             _T=float
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48): warning C4244:         ]
+  (编译源文件“../../../src/Render/ShaderManager.cpp”)
+      D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1001,48):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Render\ShaderManager.cpp(202,37):
+          查看对正在编译的函数 模板 实例化“std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4> &std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::operator =<double,0,0>(_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Ty=double
+          ]
+              G:\Sun\SunEngine\src\Render\ShaderManager.cpp(202,37):
+              请参阅 "Sun::ShaderManager::loadShaders" 中对 "std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::operator =" 的第一个引用
+  
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244: “参数”: 从“_T”转换到“_T”，可能丢失数据
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:         with
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:         [
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:             _T=double
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:         ]
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:         and
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:         [
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:             _T=float
+D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39): warning C4244:         ]
+  (编译源文件“../../../src/Render/ShaderManager.cpp”)
+      D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(351,39):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Render\ShaderManager.cpp(202,37):
+          查看对正在编译的函数 模板 实例化“std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4> &std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::operator =<double,0,0>(_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Ty=double
+          ]
+              G:\Sun\SunEngine\src\Render\ShaderManager.cpp(202,37):
+              请参阅 "Sun::ShaderManager::loadShaders" 中对 "std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::operator =" 的第一个引用
+          D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1006,17):
+          查看对正在编译的函数 模板 实例化“Sun::Vector3D<float> &std::variant<int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::_Emplace_valueless<1,_Ty>(_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Ty=double
+          ]
+          D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(1129,14):
+          查看对正在编译的函数 模板 实例化“void std::_Construct_in_place<std::_Variant_storage_<true,int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>,std::integral_constant<size_t,1>,_Ty>(std::_Variant_storage_<true,int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4> &,std::integral_constant<size_t,1> &&,_Ty &&) noexcept(false)”的引用
+          with
+          [
+              _Ty=double
+          ]
+          D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(476,61):
+          查看对正在编译的函数 模板 实例化“std::_Variant_storage_<true,int,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::_Variant_storage_<1,_T,0>(std::integral_constant<size_t,1>,_T &&) noexcept(false)”的引用
+          with
+          [
+              _T=double
+          ]
+          D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(356,16):
+          查看对正在编译的函数 模板 实例化“std::_Variant_storage_<true,Sun::vec3,Sun::Matrix3x3,Sun::Matrix4x4>::_Variant_storage_<_T>(std::integral_constant<size_t,0>,_T &&) noexcept(false)”的引用
+          with
+          [
+              _T=double
+          ]
+  
+  ShaderMgr.cpp
+  ShaderModule.cpp
+  SurfaceBuilder.cpp
+  TextureBuilder.cpp
+  正在生成代码...
+  正在编译...
+  VertexArray.cpp
+  VertexBuffer.cpp
+  MyVulkanWin32.cpp
+  buffersuballocator_vk.cpp
+  debug_util_vk.cpp
+  error_vk.cpp
+  images_vk.cpp
+  memallocator_dedicated_vk.cpp
+  memallocator_vk.cpp
+  memorymanagement_vk.cpp
+  nvprint.cpp
+  resourceallocator_vk.cpp
+  samplers_vk.cpp
+  stagingmemorymanager_vk.cpp
+  swapchain_vk.cpp
+  VulkanCommandBuffer.cpp
+  VulkanDescriptor.cpp
+  VulkanDeviceBuilder.cpp
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanDeviceBuilder.cpp(167,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanDeviceBuilder.cpp(168,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  VulkanGraphicsPipelineBuilder.cpp
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanHelper.h(123,57): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsPipelineBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanHelper.h(125,55): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsPipelineBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanHelper.h(193,50): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsPipelineBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanHelper.h(207,54): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsPipelineBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanHelper.h(218,68): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsPipelineBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanHelper.h(221,52): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsPipelineBuilder.cpp”)
+  
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanGraphicsPipelineBuilder.cpp(70,50): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanGraphicsPipelineBuilder.cpp(135,65): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanGraphicsPipelineBuilder.cpp(137,64): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  VulkanPhysicalDeviceBuilder.cpp
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanPhysicalDeviceBuilder.cpp(78,12): warning C4101: “res”: 未引用的局部变量
+  正在生成代码...
+  正在编译...
+  VulkanGraphicsLib.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsLib.cpp”)
+  
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanGraphicsLib.h(220,22): warning C4099: “std::hash”: 类型名称以前使用“struct”现在使用的是“class”
+  (编译源文件“../../../src/Render/Vulkan/VulkanGraphicsLib.cpp”)
+      D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(2320,8):
+      参见“std::hash”的声明
+  
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanGraphicsLib.cpp(536,22): warning C4101: “glfwExtensions”: 未引用的局部变量
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanGraphicsLib.cpp(721,50): warning C4838: 从“int”转换到“uint32_t”需要收缩转换
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanGraphicsLib.cpp(721,67): warning C4838: 从“int”转换到“uint32_t”需要收缩转换
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanGraphicsLib.cpp(1665,47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  VulkanImage.cpp
+  VulkanImageView.cpp
+  VulkanInstanceBuilder.cpp
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanInstanceBuilder.cpp(17,58): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanInstanceBuilder.cpp(24,50): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  VulkanMemory.cpp
+  VulkanQueueBuilder.cpp
+  VulkanRHI.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanRHI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanRHI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanRHI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanRHI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanRHI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanRHI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanRHI.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanRHI.cpp”)
+  
+  VulkanShaderMgr.cpp
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanHelper.h(123,57): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanShaderMgr.cpp”)
+  
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanHelper.h(125,55): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanShaderMgr.cpp”)
+  
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanHelper.h(193,50): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanShaderMgr.cpp”)
+  
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanHelper.h(207,54): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanShaderMgr.cpp”)
+  
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanHelper.h(218,68): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanShaderMgr.cpp”)
+  
+G:\Sun\SunEngine\src\Render\Vulkan\VulkanHelper.h(221,52): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“../../../src/Render/Vulkan/VulkanShaderMgr.cpp”)
+  
+  VulkanSurfaceBuilder.cpp
+  VulkanSwapChain.cpp
+  VulkanTextureBuilder.cpp
+  utils.cpp
+  正在生成代码...
+  glad.c
+VulkanGraphicsPipelineBuilder.obj : warning LNK4006: "enum VkShaderStageFlagBits __cdecl Sun::rhi::vulkan_enum_map(enum Sun::rhi::EShaderStageFlagBits)" (?vulkan_enum_map@rhi@Sun@@YA?AW4VkShaderStageFlagBits@@W4EShaderStageFlagBits@12@@Z) 已在 VulkanShaderMgr.obj 中定义；已忽略第二个定义
+RSI.obj : warning LNK4006: "public: __cdecl Sun::rhi::VulkanRHI::VulkanRHI(void)" (??0VulkanRHI@rhi@Sun@@QEAA@XZ) 已在 VulkanRHI.obj 中定义；已忽略第二个定义
+  Render.vcxproj -> G:\Sun\SunEngine\myproj\Debug\Render.lib

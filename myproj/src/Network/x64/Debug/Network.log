@@ -1,0 +1,41 @@
+﻿D:\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2189,5): warning MSB9008: 引用的项目 E:\GIT\testproj\SunEngine\myproj\ZERO_CHECK.vcxproj 不存在。
+D:\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(524,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  CommuteNode.cpp
+G:\Sun\SunEngine\src\Network\CommuteNode.h(57,36): warning C4251: “Sun::CommuteNode::impl_”:“std::unique_ptr<Sun::CommuteNodeImpl,std::default_delete<Sun::CommuteNodeImpl>>”需要有 dll 接口以供“Sun::CommuteNode”的客户端使用
+  (编译源文件“../../../src/Network/CommuteNode.cpp”)
+      D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<Sun::CommuteNodeImpl,std::default_delete<Sun::CommuteNodeImpl>>”的声明
+  
+  CommuteNodeImpl.cpp
+G:\Sun\SunEngine\src\Network\CommuteNode.h(57,36): warning C4251: “Sun::CommuteNode::impl_”:“std::unique_ptr<Sun::CommuteNodeImpl,std::default_delete<Sun::CommuteNodeImpl>>”需要有 dll 接口以供“Sun::CommuteNode”的客户端使用
+  (编译源文件“../../../src/Network/CommuteNodeImpl.cpp”)
+      D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<Sun::CommuteNodeImpl,std::default_delete<Sun::CommuteNodeImpl>>”的声明
+  
+G:\Sun\SunEngine\src\Network\Network.h(42,38): warning C4251: “Sun::Network::impl_”:“std::unique_ptr<Sun::NetWorkImpl,std::default_delete<Sun::NetWorkImpl>>”需要有 dll 接口以供“Sun::Network”的客户端使用
+  (编译源文件“../../../src/Network/CommuteNodeImpl.cpp”)
+      D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<Sun::NetWorkImpl,std::default_delete<Sun::NetWorkImpl>>”的声明
+  
+G:\Sun\SunEngine\src\Network\CommuteNodeImpl.cpp(107,3): warning C4018: “<=”: 有符号/无符号不匹配
+G:\Sun\SunEngine\src\Network\CommuteNodeImpl.cpp(122,3): warning C4018: “<=”: 有符号/无符号不匹配
+  Network.cpp
+G:\Sun\SunEngine\src\Network\Network.h(42,38): warning C4251: “Sun::Network::impl_”:“std::unique_ptr<Sun::NetWorkImpl,std::default_delete<Sun::NetWorkImpl>>”需要有 dll 接口以供“Sun::Network”的客户端使用
+  (编译源文件“../../../src/Network/Network.cpp”)
+      D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<Sun::NetWorkImpl,std::default_delete<Sun::NetWorkImpl>>”的声明
+  
+G:\Sun\SunEngine\src\Network\CommuteNode.h(57,36): warning C4251: “Sun::CommuteNode::impl_”:“std::unique_ptr<Sun::CommuteNodeImpl,std::default_delete<Sun::CommuteNodeImpl>>”需要有 dll 接口以供“Sun::CommuteNode”的客户端使用
+  (编译源文件“../../../src/Network/Network.cpp”)
+      D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<Sun::CommuteNodeImpl,std::default_delete<Sun::CommuteNodeImpl>>”的声明
+  
+  NetworkImpl.cpp
+G:\Sun\SunEngine\src\Network\CommuteNode.h(57,36): warning C4251: “Sun::CommuteNode::impl_”:“std::unique_ptr<Sun::CommuteNodeImpl,std::default_delete<Sun::CommuteNodeImpl>>”需要有 dll 接口以供“Sun::CommuteNode”的客户端使用
+  (编译源文件“../../../src/Network/NetworkImpl.cpp”)
+      D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3347,7):
+      参见“std::unique_ptr<Sun::CommuteNodeImpl,std::default_delete<Sun::CommuteNodeImpl>>”的声明
+  
+  正在生成代码...
+    正在创建库 G:\Sun\SunEngine\myproj\Debug\Network.lib 和对象 G:\Sun\SunEngine\myproj\Debug\Network.exp
+  Network.vcxproj -> G:\Sun\SunEngine\myproj\Debug\Network.dll

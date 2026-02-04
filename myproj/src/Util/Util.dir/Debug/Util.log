@@ -1,0 +1,58 @@
+﻿D:\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2189,5): warning MSB9008: 引用的项目 E:\GIT\testproj\SunEngine\myproj\ZERO_CHECK.vcxproj 不存在。
+D:\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(524,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  Alloc.cpp
+  Byte.cpp
+  CircularQueue.cpp
+G:\Sun\SunEngine\src\Util\CircularQueue.h(36,5): warning C4002: 类函数宏的调用“assert”参数过多
+  (编译源文件“../../../src/Util/CircularQueue.cpp”)
+  
+  Clock.cpp
+G:\Sun\SunEngine\src\Util\Clock.cpp(44,86): warning C4244: “=”: 从“_Rep”转换到“int”，可能丢失数据
+G:\Sun\SunEngine\src\Util\Clock.cpp(44,86): warning C4244:         with
+G:\Sun\SunEngine\src\Util\Clock.cpp(44,86): warning C4244:         [
+G:\Sun\SunEngine\src\Util\Clock.cpp(44,86): warning C4244:             _Rep=double
+G:\Sun\SunEngine\src\Util\Clock.cpp(44,86): warning C4244:         ]
+  Crc.cpp
+  exception.cpp
+  Factory.cpp
+  GeneralMemoryPool.cpp
+  Guid.cpp
+  Hash.cpp
+  HFile.cpp
+G:\Sun\SunEngine\src\Util\HFile.cpp(53,26): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+G:\Sun\SunEngine\src\Util\HFile.cpp(67,26): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+  List.cpp
+  MemoryPool.cpp
+  PSort.cpp
+  QuickMemoryPool.cpp
+  QuickVector.cpp
+  sp.cpp
+  Str.cpp
+G:\Sun\SunEngine\src\Util\Str.h(49,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“../../../src/Util/Str.cpp”)
+  
+  Executor.cpp
+G:\Sun\SunEngine\src\Util\SunTaskFlow\ThreadPool.h(66,39): warning C4996: 'std::result_of<Sun::Executor::spawn::<lambda_7f1633855e5eca534323566cea17dcf3> (void)>': warning STL4014: std::result_of and std::result_of_t are deprecated in C++17. They are superseded by std::invoke_result and std::invoke_result_t. You can define _SILENCE_CXX17_RESULT_OF_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+  (编译源文件“../../../src/Util/SunTaskFlow/Executor.cpp”)
+      D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(1811,1):
+      参见“std::result_of<_Callable(_Args...)>”的声明
+      G:\Sun\SunEngine\src\Util\SunTaskFlow\ThreadPool.h(66,39):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Util\SunTaskFlow\Executor.cpp(78,22):
+          查看对正在编译的函数 模板 实例化“std::future<void> ThreadPool::enqueue<Sun::Executor::spawn::<lambda_7f1633855e5eca534323566cea17dcf3>,>(F &&)”的引用
+          with
+          [
+              F=Sun::Executor::spawn::<lambda_7f1633855e5eca534323566cea17dcf3>
+          ]
+  
+  MsgQueue.cpp
+  正在生成代码...
+  正在编译...
+  Task.cpp
+  Traits.cpp
+  TraitsTest.cpp
+  TreePrinter.cpp
+  Util.cpp
+  VideoMemoryPool.cpp
+  正在生成代码...
+  Util.vcxproj -> G:\Sun\SunEngine\myproj\Debug\Util.lib

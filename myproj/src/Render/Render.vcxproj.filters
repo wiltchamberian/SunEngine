@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\MyVulkanWin32.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanGraphicsLib.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\swapchain_vk.cpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\debug_util_vk.cpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\error_vk.cpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\nvprint.cpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanCommandBuffer.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanDescriptor.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanImage.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanImageView.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanMemory.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanQueueBuilder.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanSurfaceBuilder.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanSwapChain.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanRHI.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanInstanceBuilder.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanPhysicalDeviceBuilder.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanDeviceBuilder.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\resourceallocator_vk.cpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\RHI.cpp">
+      <Filter>Source Files\RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GraphicsPipelineBuilder.cpp">
+      <Filter>Source Files\RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GraphicsPipeline.cpp">
+      <Filter>Source Files\RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\ShaderMgr.cpp">
+      <Filter>Source Files\RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\TextureBuilder.cpp">
+      <Filter>Source Files\RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\SurfaceBuilder.cpp">
+      <Filter>Source Files\RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\ContextBuilder.cpp">
+      <Filter>Source Files\RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanTextureBuilder.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanGraphicsPipelineBuilder.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\VulkanShaderMgr.cpp">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\buffersuballocator_vk.cpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\images_vk.cpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\memallocator_dedicated_vk.cpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\memallocator_vk.cpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\memorymanagement_vk.cpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\samplers_vk.cpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Vulkan\nvvk\stagingmemorymanager_vk.cpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\RHI2\RHI2.cpp">
+      <Filter>Source Files\RHI2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\RHI2\RH2_Opengl.cpp">
+      <Filter>Source Files\RHI2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\RHI2\RHI2_Vulkan.cpp">
+      <Filter>Source Files\RHI2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ThirdParty\vulkan\utils\utils.cpp">
+      <Filter>Source Files\RHI2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\RHI2\RHISurfaceBuilder.cpp">
+      <Filter>Source Files\RHI2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\RHI2\RHIVulkanSurfaceBuilder.cpp">
+      <Filter>Source Files\RHI2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\RHI3\RHI3.cpp">
+      <Filter>Source Files\RHI3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\RHI2\RSI.cpp">
+      <Filter>Source Files\RHI2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\RHI2\RHIOpenglSurfaceBuilder.cpp">
+      <Filter>Source Files\RHI2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\RHI2\RenderBluePrint.cpp">
+      <Filter>Source Files\RHI2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\RHI2\GraphicsPipelineMgr.cpp">
+      <Filter>Source Files\RHI2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GLEnumMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GLFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GLGraphicsLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GLGraphicsProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GLIndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GLMacros.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GLProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GLShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GLTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GLVertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GLVertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GraphicsCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GraphicsLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GraphicsLibFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GraphicsProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\GTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\RenderAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\RenderCommandBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\ShaderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\ShaderModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\VertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Render\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7630E6AA-30AF-3A8B-9690-3B35C64AB87E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan">
+      <UniqueIdentifier>{72e3ef40-7e3d-4a69-996e-c07716007d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vulkan\nvvk">
+      <UniqueIdentifier>{5f8d3e37-0008-4adb-9591-4fcb92ee14a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RHI">
+      <UniqueIdentifier>{7d7f9ffe-7993-42e1-b758-51f34e4816ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RHI2">
+      <UniqueIdentifier>{a05ca109-2cd1-4e81-9d2b-35fa47875df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RHI3">
+      <UniqueIdentifier>{46b43d98-1cfa-4f4b-9952-005c31a41284}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\MyVulkanWin32.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanGraphicsLib.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\swapchain_vk.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\debug_util_vk.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\error_vk.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\nvprint.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanCommandBuffer.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanDescriptor.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanImage.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanImageView.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanMemory.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanQueueBuilder.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanSurfaceBuilder.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanSwapChain.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanRHI.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanInstanceBuilder.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanPhysicalDeviceBuilder.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanDeviceBuilder.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\resourceallocator_vk.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\RHI.h">
+      <Filter>Source Files\RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\RHIDefine.h">
+      <Filter>Source Files\RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\GraphicsPipelineBuilder.h">
+      <Filter>Source Files\RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\GraphicsPipeline.h">
+      <Filter>Source Files\RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\ShaderMgr.h">
+      <Filter>Source Files\RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\TextureBuilder.h">
+      <Filter>Source Files\RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\SurfaceBuilder.h">
+      <Filter>Source Files\RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\ContextBuilder.h">
+      <Filter>Source Files\RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanTextureBuilder.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanGraphicsPipelineBuilder.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanShaderMgr.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\VulkanHelper.h">
+      <Filter>Source Files\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\buffersuballocator_vk.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\images_vk.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\memallocator_dedicated_vk.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\memallocator_dma_vk.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\memallocator_vk.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\memorymanagement_vk.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\NvFoundation.h">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\platform.h">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\samplers_vk.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\stagingmemorymanager_vk.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\Vulkan\nvvk\trangeallocator.hpp">
+      <Filter>Source Files\Vulkan\nvvk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHI2.h">
+      <Filter>Source Files\RHI2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHI2_Opengl.h">
+      <Filter>Source Files\RHI2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHI2_Vulkan.h">
+      <Filter>Source Files\RHI2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHISurfaceBuilder.h">
+      <Filter>Source Files\RHI2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHIVulkanSurfaceBuilder.h">
+      <Filter>Source Files\RHI2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\RHI3\RHI3.h">
+      <Filter>Source Files\RHI3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\RHI2\RSI.h">
+      <Filter>Source Files\RHI2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHIOpenglSurfaceBuilder.h">
+      <Filter>Source Files\RHI2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\RHI2\RenderBluePrint.h">
+      <Filter>Source Files\RHI2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\RHI2\GraphicsPipelineMgr.h">
+      <Filter>Source Files\RHI2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Render\RHI2\RHI2Define.h">
+      <Filter>Source Files\RHI2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\Render\shader_template.hpp">
+      <Filter>Source Files\RHI</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+{
+	"enumFormat":{
+	
+	}
+	
+	"AttachmentDescriptions":[
+		{
+			"format":"eUndefined",
+			"samples":"e1",
+			"loadOp":"eClear",
+			"storeOp":"eDontCare",
+			"stencilLoadOp"::"eDontCare",
+			"stencilStoreOp":"eDontCare",
+			"initialLayout":"eUndefined",
+			"finalLayout":"eDepthStencilAttachmentOptimal"
+		},
+		{
+		
+		}
+	
+	
+	]
+	
+	"RenderPass:"{
+	
+	
+	
+	
+	}
+
+}

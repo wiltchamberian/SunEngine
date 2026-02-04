@@ -1,0 +1,568 @@
+﻿D:\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2189,5): warning MSB9008: 引用的项目 E:\GIT\testproj\SunEngine\myproj\ZERO_CHECK.vcxproj 不存在。
+D:\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(524,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  boundingVolume.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/boundingVolume.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/boundingVolume.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/boundingVolume.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/boundingVolume.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/boundingVolume.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/boundingVolume.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/boundingVolume.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/boundingVolume.cpp”)
+  
+  BSPTree.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/BSPTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/BSPTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/BSPTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/BSPTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/BSPTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/BSPTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/BSPTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/BSPTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  (编译源文件“../../../src/Physics/BSPTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  (编译源文件“../../../src/Physics/BSPTree.cpp”)
+  
+  CmVertex.cpp
+  DistanceField.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DistanceField.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DistanceField.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DistanceField.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DistanceField.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DistanceField.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DistanceField.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DistanceField.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DistanceField.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  (编译源文件“../../../src/Physics/DistanceField.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  (编译源文件“../../../src/Physics/DistanceField.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Geometry.h(39,16): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DistanceField.cpp”)
+  
+  DynamicHintTest.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Geometry.h(39,16): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\DynamicHintTest.h(60,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\DynamicHintTest.h(96,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         with
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:             T=double
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         ]
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         and
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:             T=float
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         ]
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+      G:\Sun\SunEngine\src\Math\MathUtils.h(83,8):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\ClosestTest.h(57,13):
+          查看对正在编译的函数 模板 实例化“T Sun::Math::upperBound<float,double>(const T &,double)”的引用
+          with
+          [
+              T=float
+          ]
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         with
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:             T=double
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         ]
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         and
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:             T=float
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         ]
+  (编译源文件“../../../src/Physics/DynamicHintTest.cpp”)
+      G:\Sun\SunEngine\src\Math\MathUtils.h(94,8):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\ClosestTest.h(58,13):
+          查看对正在编译的函数 模板 实例化“T Sun::Math::lowerBound<float,double>(const T &,double)”的引用
+          with
+          [
+              T=float
+          ]
+  
+  Fluid.cpp
+  Grid3D.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Grid3D.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Grid3D.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Grid3D.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Grid3D.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Grid3D.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Grid3D.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Grid3D.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Grid3D.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\Grid3D.cpp(14,14): warning C4812: 过时的声明样式: 请改用“Sun::Grid3D<_T>::Grid3D”
+  HitRecord.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecord.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecord.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecord.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecord.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecord.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecord.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecord.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecord.cpp”)
+  
+  HitRecordTest.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecordTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecordTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecordTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecordTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecordTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecordTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecordTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecordTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  (编译源文件“../../../src/Physics/HitRecordTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  (编译源文件“../../../src/Physics/HitRecordTest.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Geometry.h(39,16): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecordTest.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\HitRecordTest.h(61,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/HitRecordTest.cpp”)
+  
+  KDTree.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/KDTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/KDTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/KDTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/KDTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/KDTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/KDTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/KDTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/KDTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  (编译源文件“../../../src/Physics/KDTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  (编译源文件“../../../src/Physics/KDTree.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Geometry.h(39,16): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/KDTree.cpp”)
+  
+  Particle.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Particle.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Particle.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Particle.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Particle.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Particle.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Particle.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Particle.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Particle.cpp”)
+  
+  Physics.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Physics.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Physics.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Physics.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Physics.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Physics.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Physics.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Physics.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Physics.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  (编译源文件“../../../src/Physics/Physics.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  (编译源文件“../../../src/Physics/Physics.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Geometry.h(39,16): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Physics.cpp”)
+  
+  polyhedron.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/polyhedron.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/polyhedron.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/polyhedron.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/polyhedron.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/polyhedron.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/polyhedron.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/polyhedron.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/polyhedron.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  (编译源文件“../../../src/Physics/polyhedron.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  (编译源文件“../../../src/Physics/polyhedron.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\polyhedron.cpp(629,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  RandPolyhedronGenerator.cpp
+  SeaFluid.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+G:\Sun\SunEngine\src\Math\FFT.h(75,4): warning C4002: 类函数宏的调用“assert”参数过多
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+G:\Sun\SunEngine\src\Math\FFT.h(153,66): warning C4244: “参数”: 从“double”转换到“const std::complex<float>::_Ty”，可能丢失数据
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+G:\Sun\SunEngine\src\Math\FFT.h(153,42): warning C4244: “参数”: 从“double”转换到“const std::complex<float>::_Ty”，可能丢失数据
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\SeaFluid.h(40,35): warning C4305: “参数”: 从“double”到“_T”截断
+G:\Sun\SunEngine\src\Physics\SeaFluid.h(40,35): warning C4305:         with
+G:\Sun\SunEngine\src\Physics\SeaFluid.h(40,35): warning C4305:         [
+G:\Sun\SunEngine\src\Physics\SeaFluid.h(40,35): warning C4305:             _T=float
+G:\Sun\SunEngine\src\Physics\SeaFluid.h(40,35): warning C4305:         ]
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\SeaFluid.h(40,21): warning C4305: “参数”: 从“double”到“_T”截断
+G:\Sun\SunEngine\src\Physics\SeaFluid.h(40,21): warning C4305:         with
+G:\Sun\SunEngine\src\Physics\SeaFluid.h(40,21): warning C4305:         [
+G:\Sun\SunEngine\src\Physics\SeaFluid.h(40,21): warning C4305:             _T=float
+G:\Sun\SunEngine\src\Physics\SeaFluid.h(40,21): warning C4305:         ]
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(86,13): warning C4305: “初始化”: 从“double”到“float”截断
+G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(87,13): warning C4305: “初始化”: 从“double”到“float”截断
+G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(88,11): warning C4305: “初始化”: 从“double”到“float”截断
+G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(109,13): warning C4305: “初始化”: 从“double”到“float”截断
+G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(110,13): warning C4305: “初始化”: 从“double”到“float”截断
+G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(111,11): warning C4305: “初始化”: 从“double”到“float”截断
+G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(132,13): warning C4305: “初始化”: 从“double”到“float”截断
+G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(133,13): warning C4305: “初始化”: 从“double”到“float”截断
+G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(134,11): warning C4305: “初始化”: 从“double”到“float”截断
+G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(185,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(201,34): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(202,33): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\Sun\SunEngine\src\Math\FFT.h(120,12): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+      G:\Sun\SunEngine\src\Math\FFT.h(120,12):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(49,9):
+          查看对正在编译的函数 模板 实例化“bool Sun::FFT<float,6>::run_ifft<std::complex<float>*,std::complex<float>*>(_InputIter,_InputIter,_OutIter,bool)”的引用
+          with
+          [
+              _InputIter=std::complex<float> *,
+              _OutIter=std::complex<float> *
+          ]
+              G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(49,17):
+              请参阅 "Sun::SeaFluid::calField" 中对 "Sun::FFT<float,6>::run_ifft" 的第一个引用
+  
+G:\Sun\SunEngine\src\Math\FFT.h(73,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+      G:\Sun\SunEngine\src\Math\FFT.h(73,14):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(49,9):
+          查看对正在编译的函数 模板 实例化“bool Sun::FFT<float,6>::run_ifft<std::complex<float>*,std::complex<float>*>(_InputIter,_InputIter,_OutIter,bool)”的引用
+          with
+          [
+              _InputIter=std::complex<float> *,
+              _OutIter=std::complex<float> *
+          ]
+              G:\Sun\SunEngine\src\Physics\SeaFluid.cpp(49,17):
+              请参阅 "Sun::SeaFluid::calField" 中对 "Sun::FFT<float,6>::run_ifft" 的第一个引用
+          G:\Sun\SunEngine\src\Math\FFT.h(117,14):
+          查看对正在编译的函数 模板 实例化“bool Sun::FFT<float,6>::run_fft<_InputIter,_OutIter,Sun::FFT<float,6>::Trait_Conjugate>(_InputIter,_InputIter,_OutIter,_Trait)”的引用
+          with
+          [
+              _InputIter=std::complex<float> *,
+              _OutIter=std::complex<float> *,
+              _Trait=Sun::FFT<float,6>::Trait_Conjugate
+          ]
+  
+G:\Sun\SunEngine\src\Math\FFT.h(80,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“../../../src/Physics/SeaFluid.cpp”)
+  
+  Side.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Side.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Side.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Side.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Side.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Side.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Side.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Side.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/Side.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  (编译源文件“../../../src/Physics/Side.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  (编译源文件“../../../src/Physics/Side.cpp”)
+  
+  State.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/State.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/State.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/State.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/State.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/State.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/State.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/State.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/State.cpp”)
+  
+  winding.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/winding.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/winding.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/winding.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/winding.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/winding.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/winding.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/winding.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Physics/winding.cpp”)
+  
+  正在生成代码...
+  Physics.vcxproj -> G:\Sun\SunEngine\myproj\Debug\Physics.lib

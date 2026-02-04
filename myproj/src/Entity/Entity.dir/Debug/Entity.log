@@ -1,0 +1,1017 @@
+﻿D:\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2189,5): warning MSB9008: 引用的项目 E:\GIT\testproj\SunEngine\myproj\ZERO_CHECK.vcxproj 不存在。
+D:\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(524,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  AIController.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/AIController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/AIController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/AIController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/AIController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/AIController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/AIController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/AIController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/AIController.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/AIController.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/AIController.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+  Character.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/Character.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/Character.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+G:\Sun\SunEngine\src\Component\CameraComponent.h(56,30): warning C4305: “初始化”: 从“double”到“const float”截断
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Geometry.h(39,16): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\BVH.h(86,26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\DynamicHintTest.h(60,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\DynamicHintTest.h(96,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Character.cpp”)
+  
+G:\Sun\SunEngine\src\Entity\Character.cpp(15,27): warning C4305: “=”: 从“double”到“float”截断
+G:\Sun\SunEngine\src\Entity\Character.cpp(21,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         with
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:             T=double
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         ]
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         and
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:             T=float
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         ]
+  (编译源文件“../../../src/Entity/Character.cpp”)
+      G:\Sun\SunEngine\src\Math\MathUtils.h(83,8):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\ClosestTest.h(57,13):
+          查看对正在编译的函数 模板 实例化“T Sun::Math::upperBound<float,double>(const T &,double)”的引用
+          with
+          [
+              T=float
+          ]
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         with
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:             T=double
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         ]
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         and
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:             T=float
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         ]
+  (编译源文件“../../../src/Entity/Character.cpp”)
+      G:\Sun\SunEngine\src\Math\MathUtils.h(94,8):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\ClosestTest.h(58,13):
+          查看对正在编译的函数 模板 实例化“T Sun::Math::lowerBound<float,double>(const T &,double)”的引用
+          with
+          [
+              T=float
+          ]
+  
+  Controller.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Controller.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Controller.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Controller.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Controller.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Controller.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Controller.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Controller.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Controller.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/Controller.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/Controller.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+G:\Sun\SunEngine\src\Component\CameraComponent.h(56,30): warning C4305: “初始化”: 从“double”到“const float”截断
+  (编译源文件“../../../src/Entity/Controller.cpp”)
+  
+  DirectLight.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/DirectLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/DirectLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/DirectLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/DirectLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/DirectLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/DirectLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/DirectLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/DirectLight.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/DirectLight.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/DirectLight.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+  Archetype.cpp
+  Chunk.cpp
+  ComAccessPtr.cpp
+  ComTypeId.cpp
+  ecs.cpp
+  ECSGlobal.cpp
+  ECSMgr.cpp
+  ESCMemoryPool.cpp
+  ISystem.cpp
+  SystemMgr.cpp
+  GameObject.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+G:\Sun\SunEngine\src\Component\CameraComponent.h(56,30): warning C4305: “初始化”: 从“double”到“const float”截断
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Geometry.h(39,16): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\BVH.h(86,26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\DynamicHintTest.h(60,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\DynamicHintTest.h(96,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         with
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:             T=double
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         ]
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         and
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:             T=float
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         ]
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+      G:\Sun\SunEngine\src\Math\MathUtils.h(83,8):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\ClosestTest.h(57,13):
+          查看对正在编译的函数 模板 实例化“T Sun::Math::upperBound<float,double>(const T &,double)”的引用
+          with
+          [
+              T=float
+          ]
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         with
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:             T=double
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         ]
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         and
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:             T=float
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         ]
+  (编译源文件“../../../src/Entity/GameObject.cpp”)
+      G:\Sun\SunEngine\src\Math\MathUtils.h(94,8):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\ClosestTest.h(58,13):
+          查看对正在编译的函数 模板 实例化“T Sun::Math::lowerBound<float,double>(const T &,double)”的引用
+          with
+          [
+              T=float
+          ]
+  
+  GameObjectContainer.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObjectContainer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObjectContainer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObjectContainer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObjectContainer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObjectContainer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObjectContainer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObjectContainer.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GameObjectContainer.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/GameObjectContainer.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/GameObjectContainer.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+  GltfLoader2.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GltfLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GltfLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GltfLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GltfLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GltfLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GltfLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GltfLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/GltfLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/GltfLoader2.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/GltfLoader2.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(59,37): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,62): warning C4305: “参数”: 从“double”到“_T”截断
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,62): warning C4305:         with
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,62): warning C4305:         [
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,62): warning C4305:             _T=float
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,62): warning C4305:         ]
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,57): warning C4305: “参数”: 从“double”到“_T”截断
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,57): warning C4305:         with
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,57): warning C4305:         [
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,57): warning C4305:             _T=float
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,57): warning C4305:         ]
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,52): warning C4305: “参数”: 从“double”到“_T”截断
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,52): warning C4305:         with
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,52): warning C4305:         [
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,52): warning C4305:             _T=float
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(307,52): warning C4305:         ]
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(455,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(623,24): warning C4267: “初始化”: 从“size_t”转换到“Sun::uint32”，可能丢失数据
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(696,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\Sun\SunEngine\src\Entity\GltfLoader2.cpp(720,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Level.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/Level.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/Level.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+G:\Sun\SunEngine\src\Component\CameraComponent.h(56,30): warning C4305: “初始化”: 从“double”到“const float”截断
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Geometry.h(39,16): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\BVH.h(86,26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\DynamicHintTest.h(60,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\DynamicHintTest.h(96,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Level.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         with
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:             T=double
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         ]
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         and
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:             T=float
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         ]
+  (编译源文件“../../../src/Entity/Level.cpp”)
+      G:\Sun\SunEngine\src\Math\MathUtils.h(83,8):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\ClosestTest.h(57,13):
+          查看对正在编译的函数 模板 实例化“T Sun::Math::upperBound<float,double>(const T &,double)”的引用
+          with
+          [
+              T=float
+          ]
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         with
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:             T=double
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         ]
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         and
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:             T=float
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         ]
+  (编译源文件“../../../src/Entity/Level.cpp”)
+      G:\Sun\SunEngine\src\Math\MathUtils.h(94,8):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\ClosestTest.h(58,13):
+          查看对正在编译的函数 模板 实例化“T Sun::Math::lowerBound<float,double>(const T &,double)”的引用
+          with
+          [
+              T=float
+          ]
+  
+  Light.cpp
+  LightObject.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/LightObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/LightObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/LightObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/LightObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/LightObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/LightObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/LightObject.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/LightObject.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/LightObject.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/LightObject.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+  正在生成代码...
+  正在编译...
+  Missile.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Missile.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Missile.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Missile.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Missile.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Missile.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Missile.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Missile.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Missile.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/Missile.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/Missile.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+  Obj.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Obj.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Obj.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Obj.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Obj.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Obj.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Obj.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Obj.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Obj.cpp”)
+  
+  ObjLoader.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Util\StringUtil.h(13,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Util\StringUtil.h(32,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Entity\ObjLoader.cpp(153,91): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  ObjLoader2.cpp
+G:\Sun\SunEngine\src\Util\StringUtil.h(13,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Util\StringUtil.h(32,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/ObjLoader2.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/ObjLoader2.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/ObjLoader2.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+  Pawn.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+G:\Sun\SunEngine\src\Component\CameraComponent.h(56,30): warning C4305: “初始化”: 从“double”到“const float”截断
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Geometry.h(39,16): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\BVH.h(86,26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\DynamicHintTest.h(60,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\DynamicHintTest.h(96,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         with
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:             T=double
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         ]
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         and
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:             T=float
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         ]
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+      G:\Sun\SunEngine\src\Math\MathUtils.h(83,8):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\ClosestTest.h(57,13):
+          查看对正在编译的函数 模板 实例化“T Sun::Math::upperBound<float,double>(const T &,double)”的引用
+          with
+          [
+              T=float
+          ]
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         with
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:             T=double
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         ]
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         and
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:             T=float
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         ]
+  (编译源文件“../../../src/Entity/Pawn.cpp”)
+      G:\Sun\SunEngine\src\Math\MathUtils.h(94,8):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\ClosestTest.h(58,13):
+          查看对正在编译的函数 模板 实例化“T Sun::Math::lowerBound<float,double>(const T &,double)”的引用
+          with
+          [
+              T=float
+          ]
+  
+  PlayerController.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlayerController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlayerController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlayerController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlayerController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlayerController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlayerController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlayerController.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlayerController.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/PlayerController.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/PlayerController.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+G:\Sun\SunEngine\src\Component\CameraComponent.h(56,30): warning C4305: “初始化”: 从“double”到“const float”截断
+  (编译源文件“../../../src/Entity/PlayerController.cpp”)
+  
+  PlyLoader.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+G:\Sun\SunEngine\src\Math\Random.h(40,33): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Random.h(114,32): warning C4244: “=”: 从“int”转换到“_T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\Random.h(114,32): warning C4244:         with
+G:\Sun\SunEngine\src\Math\Random.h(114,32): warning C4244:         [
+G:\Sun\SunEngine\src\Math\Random.h(114,32): warning C4244:             _T=float
+G:\Sun\SunEngine\src\Math\Random.h(114,32): warning C4244:         ]
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Random.h(115,32): warning C4244: “=”: 从“int”转换到“_T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\Random.h(115,32): warning C4244:         with
+G:\Sun\SunEngine\src\Math\Random.h(115,32): warning C4244:         [
+G:\Sun\SunEngine\src\Math\Random.h(115,32): warning C4244:             _T=float
+G:\Sun\SunEngine\src\Math\Random.h(115,32): warning C4244:         ]
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Random.h(116,32): warning C4244: “=”: 从“int”转换到“_T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\Random.h(116,32): warning C4244:         with
+G:\Sun\SunEngine\src\Math\Random.h(116,32): warning C4244:         [
+G:\Sun\SunEngine\src\Math\Random.h(116,32): warning C4244:             _T=float
+G:\Sun\SunEngine\src\Math\Random.h(116,32): warning C4244:         ]
+  (编译源文件“../../../src/Entity/PlyLoader.cpp”)
+  
+G:\Sun\SunEngine\src\Entity\PlyLoader.cpp(85,32): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+G:\Sun\SunEngine\src\Entity\PlyLoader.cpp(90,31): warning C4018: “<”: 有符号/无符号不匹配
+G:\Sun\SunEngine\src\Entity\PlyLoader.cpp(105,36): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  PointLight.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PointLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PointLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PointLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PointLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PointLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PointLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PointLight.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/PointLight.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/PointLight.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/PointLight.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(44,41): warning C4244: “=”: 从“double”转换到“_T”，可能丢失数据
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(44,41): warning C4244:         with
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(44,41): warning C4244:         [
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(44,41): warning C4244:             _T=float
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(44,41): warning C4244:         ]
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(45,41): warning C4244: “=”: 从“double”转换到“_T”，可能丢失数据
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(45,41): warning C4244:         with
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(45,41): warning C4244:         [
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(45,41): warning C4244:             _T=float
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(45,41): warning C4244:         ]
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(46,41): warning C4244: “=”: 从“double”转换到“_T”，可能丢失数据
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(46,41): warning C4244:         with
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(46,41): warning C4244:         [
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(46,41): warning C4244:             _T=float
+G:\Sun\SunEngine\src\Entity\PointLight.cpp(46,41): warning C4244:         ]
+  tinyply.cpp
+  tiny_obj_loader.cc
+  World.cpp
+G:\Sun\SunEngine\src\Math\MathUtils.h(141,18): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(142,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(148,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(150,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(156,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(159,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(163,39): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(167,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Assets\Animation.h(90,12): warning C4099: “Sun::Animation”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/World.cpp”)
+      G:\Sun\SunEngine\src\Assets\Animation.h(90,12):
+      参见“Sun::Animation”的声明
+  
+G:\Sun\SunEngine\src\Entity\GameObject.h(249,12): warning C4099: “Sun::GameObjectCompare”: 类型名称以前使用“class”现在使用的是“struct”
+  (编译源文件“../../../src/Entity/World.cpp”)
+      G:\Sun\SunEngine\src\Entity\GameObject.h(249,12):
+      参见“Sun::GameObjectCompare”的声明
+  
+G:\Sun\SunEngine\src\Component\CameraComponent.h(56,30): warning C4305: “初始化”: 从“double”到“const float”截断
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4806: “|”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Plane.h(15,39): warning C4554: “|”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Math\Geometry.h(39,16): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\BVH.h(86,26): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\DynamicHintTest.h(60,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Physics\DynamicHintTest.h(96,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“../../../src/Entity/World.cpp”)
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         with
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:             T=double
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         ]
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         and
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:             T=float
+G:\Sun\SunEngine\src\Math\MathUtils.h(83,8): warning C4244:         ]
+  (编译源文件“../../../src/Entity/World.cpp”)
+      G:\Sun\SunEngine\src\Math\MathUtils.h(83,8):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\ClosestTest.h(57,13):
+          查看对正在编译的函数 模板 实例化“T Sun::Math::upperBound<float,double>(const T &,double)”的引用
+          with
+          [
+              T=float
+          ]
+  
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         with
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:             T=double
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         ]
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         and
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         [
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:             T=float
+G:\Sun\SunEngine\src\Math\MathUtils.h(94,8): warning C4244:         ]
+  (编译源文件“../../../src/Entity/World.cpp”)
+      G:\Sun\SunEngine\src\Math\MathUtils.h(94,8):
+      模板实例化上下文(最早的实例化上下文)为
+          G:\Sun\SunEngine\src\Physics\ClosestTest.h(58,13):
+          查看对正在编译的函数 模板 实例化“T Sun::Math::lowerBound<float,double>(const T &,double)”的引用
+          with
+          [
+              T=float
+          ]
+  
+  正在生成代码...
+ObjLoader2.obj : warning LNK4006: "public: virtual __cdecl tinyobj::MaterialReader::~MaterialReader(void)" (??1MaterialReader@tinyobj@@UEAA@XZ) 已在 tiny_obj_loader.obj 中定义；已忽略第二个定义
+ObjLoader2.obj : warning LNK4006: "public: virtual bool __cdecl tinyobj::MaterialFileReader::operator()(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<struct tinyobj::material_t,class std::allocator<struct tinyobj::material_t> > *,class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,int> > > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)" (??RMaterialFileReader@tinyobj@@UEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV?$vector@Umaterial_t@tinyobj@@V?$allocator@Umaterial_t@tinyobj@@@std@@@3@PEAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HU?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@std@@@2@@3@PEAV23@3@Z) 已在 tiny_obj_loader.obj 中定义；已忽略第二个定义
+ObjLoader2.obj : warning LNK4006: "public: virtual bool __cdecl tinyobj::MaterialStreamReader::operator()(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<struct tinyobj::material_t,class std::allocator<struct tinyobj::material_t> > *,class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,int> > > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)" (??RMaterialStreamReader@tinyobj@@UEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV?$vector@Umaterial_t@tinyobj@@V?$allocator@Umaterial_t@tinyobj@@@std@@@3@PEAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HU?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@std@@@2@@3@PEAV23@3@Z) 已在 tiny_obj_loader.obj 中定义；已忽略第二个定义
+ObjLoader2.obj : warning LNK4006: "public: bool __cdecl tinyobj::ObjReader::ParseFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct tinyobj::ObjReaderConfig const &)" (?ParseFromFile@ObjReader@tinyobj@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUObjReaderConfig@2@@Z) 已在 tiny_obj_loader.obj 中定义；已忽略第二个定义
+ObjLoader2.obj : warning LNK4006: "public: bool __cdecl tinyobj::ObjReader::ParseFromString(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct tinyobj::ObjReaderConfig const &)" (?ParseFromString@ObjReader@tinyobj@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEBUObjReaderConfig@2@@Z) 已在 tiny_obj_loader.obj 中定义；已忽略第二个定义
+ObjLoader2.obj : warning LNK4006: "bool __cdecl tinyobj::LoadObj(struct tinyobj::attrib_t *,class std::vector<struct tinyobj::shape_t,class std::allocator<struct tinyobj::shape_t> > *,class std::vector<struct tinyobj::material_t,class std::allocator<struct tinyobj::material_t> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *,char const *,char const *,bool,bool)" (?LoadObj@tinyobj@@YA_NPEAUattrib_t@1@PEAV?$vector@Ushape_t@tinyobj@@V?$allocator@Ushape_t@tinyobj@@@std@@@std@@PEAV?$vector@Umaterial_t@tinyobj@@V?$allocator@Umaterial_t@tinyobj@@@std@@@4@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@3PEBD4_N5@Z) 已在 tiny_obj_loader.obj 中定义；已忽略第二个定义
+ObjLoader2.obj : warning LNK4006: "bool __cdecl tinyobj::LoadObjWithCallback(class std::basic_istream<char,struct std::char_traits<char> > &,struct tinyobj::callback_t const &,void *,class tinyobj::MaterialReader *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)" (?LoadObjWithCallback@tinyobj@@YA_NAEAV?$basic_istream@DU?$char_traits@D@std@@@std@@AEBUcallback_t@1@PEAXPEAVMaterialReader@1@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@4@Z) 已在 tiny_obj_loader.obj 中定义；已忽略第二个定义
+ObjLoader2.obj : warning LNK4006: "bool __cdecl tinyobj::LoadObj(struct tinyobj::attrib_t *,class std::vector<struct tinyobj::shape_t,class std::allocator<struct tinyobj::shape_t> > *,class std::vector<struct tinyobj::material_t,class std::allocator<struct tinyobj::material_t> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *,class std::basic_istream<char,struct std::char_traits<char> > *,class tinyobj::MaterialReader *,bool,bool)" (?LoadObj@tinyobj@@YA_NPEAUattrib_t@1@PEAV?$vector@Ushape_t@tinyobj@@V?$allocator@Ushape_t@tinyobj@@@std@@@std@@PEAV?$vector@Umaterial_t@tinyobj@@V?$allocator@Umaterial_t@tinyobj@@@std@@@4@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@3PEAV?$basic_istream@DU?$char_traits@D@std@@@4@PEAVMaterialReader@1@_N6@Z) 已在 tiny_obj_loader.obj 中定义；已忽略第二个定义
+ObjLoader2.obj : warning LNK4006: "void __cdecl tinyobj::LoadMtl(class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,int> > > *,class std::vector<struct tinyobj::material_t,class std::allocator<struct tinyobj::material_t> > *,class std::basic_istream<char,struct std::char_traits<char> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)" (?LoadMtl@tinyobj@@YAXPEAV?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HU?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@std@@@2@@std@@PEAV?$vector@Umaterial_t@tinyobj@@V?$allocator@Umaterial_t@tinyobj@@@std@@@3@PEAV?$basic_istream@DU?$char_traits@D@std@@@3@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@3@Z) 已在 tiny_obj_loader.obj 中定义；已忽略第二个定义
+ObjLoader2.obj : warning LNK4006: "bool __cdecl tinyobj::ParseTextureNameAndOption(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *,struct tinyobj::texture_option_t *,char const *)" (?ParseTextureNameAndOption@tinyobj@@YA_NPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUtexture_option_t@1@PEBD@Z) 已在 tiny_obj_loader.obj 中定义；已忽略第二个定义
+  Entity.vcxproj -> G:\Sun\SunEngine\myproj\Debug\Entity.lib

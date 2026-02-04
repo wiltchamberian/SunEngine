@@ -1,0 +1,14 @@
+G:\SunEngine__old\src\Script\Ast.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\Ast.obj
+G:\SunEngine__old\src\Script\byteCode.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\byteCode.obj
+G:\SunEngine__old\src\Script\environment.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\environment.obj
+G:\SunEngine__old\src\Script\Eval.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\Eval.obj
+G:\SunEngine__old\src\Script\Lexer.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\Lexer.obj
+G:\SunEngine__old\src\Script\MetaAllocator.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\MetaAllocator.obj
+G:\SunEngine__old\src\Script\MetaParser.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\MetaParser.obj
+G:\SunEngine__old\src\Script\MetaWriter.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\MetaWriter.obj
+G:\SunEngine__old\src\Script\ObjectSys.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\ObjectSys.obj
+G:\SunEngine__old\src\Script\Parser.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\Parser.obj
+G:\SunEngine__old\src\Script\repl.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\repl.obj
+G:\SunEngine__old\src\Script\TestScript.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\TestScript.obj
+G:\SunEngine__old\src\Script\Token.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\Token.obj
+G:\SunEngine__old\src\Script\Try.cpp;G:\SunEngine__old\myproj\src\Script\x64\Debug\Try.obj
